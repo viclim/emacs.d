@@ -1,0 +1,5 @@
+(add-to-list 'auto-mode-alist '("\\js$" . rjsx-mode))
+(add-hook 'js2-jsx-mode-hook (defun eslint ()
+                               (flycheck-mode t)
+                               (when (executable-find "eslint")
+                                 (flycheck-select-checker 'javascript-eslint))))

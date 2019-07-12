@@ -1,0 +1,33 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("java.io.*" include nil nil [1 18])
+            ("java.util.*" include nil nil [19 38])
+            ("java.text.*" include nil nil [39 58])
+            ("Solution" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [155 168]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [131 273]))                  
+                :type "class")
+                nil [59 276]))          
+      :file "euler3.java"
+      :pointmax 277
+      :fsize 276
+      :lastmodtime '(23356 48705 935378 774000)
+      :unmatched-syntax nil))
+  :file "!Users!victor!work!viclim!hackerrank!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

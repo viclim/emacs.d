@@ -1,0 +1,94 @@
+warriorjs
+ls
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+ruby levensthein.rb 
+open index.html 
+du -h
+cd ../..
+ls
+cd ../amos/
+ls -lh vendor/cache
+ls -lh -S vendor/cache
+du -ch
+cd ../..
+du -ch
+du --help
+man du
+du -I .git/
+du -I .git ./
+du -ch -I .git ./
+../avvo_common/

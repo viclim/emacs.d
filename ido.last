@@ -1,0 +1,504 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/victor/work/avvo/atlas-indexer/tmp/" . "cache/")
+ ("/Users/victor/work/avvo/atlas-indexer/app/search/" . "global/")
+ ("/Users/victor/work/govwizely/zapiness/spec/controllers/" . "admin/")
+ ("/Users/victor/work/govwizely/zapiness/lib/assets/endpoint-wizard/src/components/" . "withTour/")
+ ("/Users/victor/codes/timer-native/" . "node_modules/")
+ ("/Users/victor/work/essayjack/ejb/db/" . "migrate/")
+ ("/Users/victor/codes/rubyconf/leaderboard/app/views/" . "layouts/")
+ ("/Users/victor/work/jumpyfrog/" . "todo/")
+ ("/Users/victor/codes/rubyconf/leaderboard/" . "app/")
+ ("/Users/victor/codes/rubyconf/leaderboard/app/assets/" . "javascripts/")
+ ("/Users/victor/codes/rubyconf/leaderboard/app/" . "controllers/")
+ ("/Users/victor/work/jumpyfrog/todo/web/static/js/" . "reducers/")
+ ("/Users/victor/work/jumpyfrog/todo/web/" . "views/")
+ ("/Users/victor/work/retriever/test/" . "models/")
+ ("/Users/victor/work/retriever/lib/" . "retriever/")
+ ("/Users/victor/work/retriever/web/templates/" . "page/")
+ ("/Users/victor/work/retriever/web/" . "templates/")
+ ("/Users/victor/work/retriever/" . "deps/")
+ ("/Users/victor/work/govwizely/i94-search/src/" . "containers/")
+ ("/Users/victor/work/essayjack/ejb/lib/" . "assets/")
+ ("/Users/victor/work/essayjack/ejb/" . "db/")
+ ("/Users/victor/work/essayjack/ejb/app/assets/javascripts/" . "components/")
+ ("/Users/victor/work/essayjack/ejb/app/assets/javascripts/components/" . "TemplateApp/")
+ ("/Users/victor/work/essayjack/ejb/app/decorators/models/" . "payola/")
+ ("/Users/victor/work/essayjack/ejb/app/decorators/" . "models/")
+ ("/Users/victor/work/govwizely/market-intelligence-search-app/sites/" . "market_intelligence/")
+ ("/Users/victor/work/govwizely/csl-search-redux/src/components/" . "Result/")
+ ("/Users/victor/work/govwizely/csl-search/app/" . "views/")
+ ("/Users/victor/work/govwizely/csl-search/" . "app/")
+ ("/Users/victor/work/essayjack/ejb/app/assets/javascripts/components/TemplateApp/" . "components/")
+ ("/Users/victor/work/essayjack/ejb/app/assets/javascripts/components/TemplateApp/components/Template/" . "SectionCard/")
+ ("/Users/victor/work/essayjack/ejb/app/assets/javascripts/components/TemplateApp/components/" . "Template/")
+ ("/Users/victor/work/essayjack/ejb/spec/" . "features/")
+ ("/Users/victor/work/essayjack/ejb/app/assets/" . "javascripts/")
+ ("/Users/victor/work/essayjack/ejb/app/" . "models/")
+ ("/Users/victor/work/essayjack/ejb/app/views/essays/" . "templates/")
+ ("/Users/victor/work/essayjack/ejb/app/views/" . "templates/")
+ ("/Users/victor/work/govwizely/rexplorer/" . "src/")
+ ("/Users/victor/work/govwizely/rexplorer/envs/" . "development/")
+ ("/Users/victor/work/govwizely/rexplorer/src/" . "templates/")
+ ("/Users/victor/work/nicholas/reddit/app/controllers/" . "admin/")
+ ("/Users/victor/work/nicholas/reddit/config/" . "initializers/")
+ ("/Users/victor/work/nicholas/reddit/app/assets/" . "images/")
+ ("/Users/victor/work/nicholas/reddit/app/" . "policies/")
+ ("/Users/victor/work/nicholas/reddit/app/views/" . "entries/")
+ ("/Users/victor/work/govwizely/market-intelligence-search-app/envs/" . "production/")
+ ("/Users/victor/work/govwizely/csl-search-redux/src/" . "components/")
+ ("/Users/victor/work/govwizely/csl-search-react/" . "webpack/")
+ ("/Users/victor/work/govwizely/csl-search-react/api/" . "actions/")
+ ("/Users/victor/work/govwizely/csl-search-react/src/components/" . "Form/")
+ ("/Users/victor/work/govwizely/csl-search-react/src/redux/" . "modules/")
+ ("/Users/victor/work/govwizely/csl-search-react/src/" . "redux/")
+ ("/Users/victor/work/govwizely/csl-search-react/src/containers/" . "Home/")
+ ("/Users/victor/work/govwizely/api-in-a-box/app/workers/" . "subscriptions/")
+ ("/Users/victor/work/govwizely/api-in-a-box/app/services/" . "subscriptions/")
+ ("/Users/victor/work/govwizely/api-in-a-box/db/" . "seeds/")
+ ("/Users/victor/codes/rts/" . "src/")
+ ("/Users/victor/codes/rts/src/" . "reducers/")
+ ("/Users/victor/codes/ml/machine-learning-ex2/" . "ex2/")
+ ("/Users/victor/codes/ml/" . "machine-learning-ex2/")
+ ("/Users/victor/codes/facepalm/src/" . "components/")
+ ("/Users/victor/work/govwizely/api-in-a-box/app/views/devise/" . "registrations/")
+ ("/Users/victor/codes/phoenix_trello/web/controllers/api/" . "v1/")
+ ("/Users/victor/codes/phoenix_trello/web/controllers/" . "api/")
+ ("/Users/victor/codes/phoenix_trello/lib/" . "phoenix_trello/")
+ ("/Users/victor/codes/phoenix_trello/priv/static/" . "js/")
+ ("/Users/victor/codes/phoenix_trello/priv/" . "repo/")
+ ("/Users/victor/codes/phoenix_trello/web/static/" . "js/")
+ ("/Users/victor/codes/phoenix_trello/web/templates/" . "layout/")
+ ("/Users/victor/codes/phoenix_trello/web/" . "controllers/")
+ ("/Users/victor/codes/phoenix_trello/web/static/js/" . "layouts/")
+ ("/Users/victor/codes/phoenix_trello/_build/dev/lib/" . "phoenix_trello/")
+ ("/Users/victor/codes/phoenix_trello/_build/dev/" . "lib/")
+ ("/Users/victor/codes/phoenix_trello/_build/" . "dev/")
+ ("/Users/victor/codes/phoenix_trello/" . "priv/")
+ ("/Users/victor/work/govwizely/api-in-a-box/spec/fixtures/" . "source_files/")
+ ("/Users/victor/work/govwizely/api-in-a-box/spec/features/" . "invitations/")
+ ("/Users/victor/work/govwizely/api-in-a-box/app/controllers/" . "admin/")
+ ("/Users/victor/work/dylan/calculator/node_modules/" . "redux-thunk/")
+ ("/Users/victor/work/dylan/calculator/" . "node_modules/")
+ ("/Users/victor/work/dylan/calculator/src/" . "components/")
+ ("/Users/victor/work/govwizely/api-in-a-box/app/assets/javascripts/" . "components/")
+ ("/Users/victor/work/govwizely/market-intelligence-search-app/public/" . "css/")
+ ("/Users/victor/work/govwizely/api-in-a-box/config/" . "environments/")
+ ("/Users/victor/work/govwizely/market-intelligence-search-app/styles/" . "blocks/")
+ ("/Users/victor/work/govwizely/market-intelligence-search-app/styles/blocks/" . "mi-search-message/")
+ ("/Users/victor/work/govwizely/market-intelligence-search-app/src/js/containers/search/" . "styles/")
+ ("/Users/victor/work/govwizely/market-intelligence-search-app/src/js/containers/" . "search/")
+ ("/Users/victor/codes/phoenix_intro/web/templates/" . "hello/")
+ ("/Users/victor/codes/phoenix_intro/web/" . "models/")
+ ("/Users/victor/work/govwizely/api-in-a-box/vendor/assets/" . "javascripts/")
+ ("/Users/victor/work/govwizely/api-in-a-box/vendor/" . "bootstrap/")
+ ("/Users/victor/work/made-for-use/transporter/spec/fixtures/" . "screenshots/")
+ ("/Users/victor/work/made-for-use/transporter/app/views/" . "layouts/")
+ ("/Users/victor/work/govwizely/market-intelligence-search-app/src/js/components/" . "styles/")
+ ("/Users/victor/work/govwizely/market-intelligence-search-app/src/js/templates/" . "styles/")
+ ("/Users/victor/work/made-for-use/transporter/spec/features/" . "users/")
+ ("/Users/victor/work/made-for-use/transporter/config/" . "initializers/")
+ ("/Users/victor/work/made-for-use/transporter/spec/" . "fixtures/")
+ ("/Users/victor/work/made-for-use/transporter/app/" . "helpers/")
+ ("/Users/victor/work/made-for-use/" . "transporter/")
+ ("/Users/victor/work/made-for-use/transporter/" . "spec/")
+ ("/Users/victor/work/govwizely/market-intelligence-search-app/test/actions/" . "payload/")
+ ("/Users/victor/work/govwizely/market-intelligence-search-app/test/mocks/" . "fetches/")
+ ("/Users/" . "victor/")
+ ("/Users/victor/work/govwizely/market-intelligence-search-app/docs/" . "containers/")
+ ("/Users/victor/Downloads/" . "icomoon/")
+ ("/Users/victor/work/govwizely/webservices/spec/support/trade_events/v2/" . "all_sources/")
+ ("/Users/victor/work/govwizely/webservices/spec/support/trade_events/" . "v2/")
+ ("/Users/victor/work/govwizely/webservices/spec/queries/" . "v2/")
+ ("/Users/victor/work/govwizely/webservices/spec/support/trade_leads/" . "australia/")
+ ("/Users/victor/work/govwizely/webservices/spec/support/" . "trade_leads/")
+ ("/Users/victor/work/govwizely/webservices/spec/fixtures/trade_leads/" . "australia/")
+ ("/Users/victor/work/govwizely/webservices/data/" . "australian_trade_leads/")
+ ("/Users/victor/work/govwizely/webservices/spec/queries/v2/trade_lead/" . "query/")
+ ("/Users/victor/work/govwizely/webservices/spec/queries/v2/trade_leads/" . "query/")
+ ("/Users/victor/work/govwizely/webservices/spec/queries/trade_leads/" . "query/")
+ ("/Users/victor/work/govwizely/webservices/spec/queries/v2/" . "trade_event/")
+ ("/Users/victor/work/govwizely/webservices/spec/queries/v2/trade_event/" . "ustda/")
+ ("/Users/victor/work/govwizely/webservices/spec/lib/" . "query/")
+ ("/Users/victor/work/govwizely/webservices/app/views/api/v2/trade_events/" . "consolidated/")
+ ("/Users/victor/work/govwizely/webservices/app/queries/v2/" . "trade_event/")
+ ("/Users/victor/work/govwizely/webservices/app/views/api/v1/trade_events/" . "dl/")
+ ("/Users/victor/work/govwizely/market-intelligence-search-app/bower_components/uikit/css/" . "components/")
+ ("/Users/victor/work/govwizely/market-intelligence-search-app/bower_components/uikit/" . "scss/")
+ ("/Users/victor/work/govwizely/market-intelligence-search-app/bower_components/uikit/scss/" . "core/")
+ ("/Users/victor/work/govwizely/market-intelligence-search-app/bower_components/components-font-awesome/" . "scss/")
+ ("/Users/victor/work/govwizely/market-intelligence-search-app/src/scss/" . "components/")
+ ("/Users/victor/work/govwizely/market-intelligence-search-app/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/" . "mixins/")
+ ("/Users/victor/work/govwizely/market-intelligence-search-app/bower_components/bootstrap-sass/assets/stylesheets/" . "bootstrap/")
+ ("/Users/victor/work/govwizely/api-in-a-box/app/views/" . "memberships/")
+ ("/Users/victor/codes/rt/ps/authorization/app/assets/" . "javascripts/")
+ ("/Users/victor/codes/rt/ps/authorization/app/" . "assets/")
+ ("/Users/victor/work/govwizely/api-in-a-box/app/assets/" . "stylesheets/")
+ ("/Users/victor/work/govwizely/market-intelligence-search-app/node_modules/isparta/" . "bin/")
+ ("/Users/victor/work/govwizely/market-intelligence-search-app/node_modules/browserify/" . "bin/")
+ ("/Users/victor/work/govwizely/market-intelligence-search-app/bower_components/html5shiv/" . "dist/")
+ ("/Users/victor/work/govwizely/market-intelligence-search-app/test/" . "utils/")
+ ("/Users/victor/work/govwizely/market-intelligence-search-app/node_modules/material-ui/lib/" . "card/")
+ ("/Users/victor/work/govwizely/market-intelligence-search-app/node_modules/redux-simple-router/" . "lib/")
+ ("/Users/victor/work/govwizely/market-intelligence-search-app/src/js/" . "store/")
+ ("/Users/victor/work/govwizely/market-intelligence-search-app/src/" . "js/")
+ ("/Users/victor/work/govwizely/market-intelligence-search-app/tmp/" . "css/")
+ ("/Users/victor/work/govwizely/market-intelligence-search-app/gulp/" . "tasks/")
+ ("/Users/victor/work/govwizely/market-intelligence-search-app/bower_components/jquery/" . "dist/")
+ ("/Users/victor/work/govwizely/market-intelligence-search-app/dist/" . "fonts/")
+ ("/Users/victor/work/govwizely/market-intelligence-search-app/bower_components/bootstrap-sass/assets/" . "stylesheets/")
+ ("/Users/victor/work/govwizely/market-intelligence-search-app/bower_components/bootstrap-sass/" . "assets/")
+ ("/Users/victor/work/govwizely/market-intelligence-search-app/bower_components/" . "uikit/")
+ ("/Users/victor/work/govwizely/market-intelligence-search-app/node_modules/react-select/" . "dist/")
+ ("/Users/victor/work/govwizely/market-intelligence-search-app/node_modules/" . "react-select/")
+ ("/Users/victor/work/govwizely/market-intelligence-search-app/" . "sites/")
+ ("/Users/victor/work/govwizely/redux-explorer/" . "src/")
+ ("/Users/victor/work/govwizely/backbone-explorer/src/js/" . "components/")
+ ("/Users/victor/work/govwizely/backbone-explorer/test/" . "components/")
+ ("/Users/victor/work/govwizely/backbone-explorer/dist/" . "js/")
+ ("/Users/victor/work/govwizely/backbone-explorer/bower_components/bootstrap-sass/assets/" . "javascripts/")
+ ("/Users/victor/work/govwizely/backbone-explorer/bower_components/bootstrap-sass/" . "assets/")
+ ("/Users/victor/work/govwizely/backbone-explorer/src/" . "js/")
+ ("/Users/victor/work/govwizely/backbone-explorer/node_modules/react-spinkit/" . "dist/")
+ ("/Users/victor/work/govwizely/backbone-explorer/node_modules/react-select/" . "dist/")
+ ("/Users/victor/work/govwizely/backbone-explorer/node_modules/" . "fbjs/")
+ ("/Users/victor/work/govwizely/backbone-explorer/public/" . "fonts/")
+ ("/Users/victor/work/govwizely/backbone-explorer/bower_components/components-font-awesome/" . "fonts/")
+ ("/Users/victor/work/govwizely/backbone-explorer/bower_components/bootstrap/dist/" . "css/")
+ ("/Users/victor/work/govwizely/backbone-explorer/bower_components/bootstrap/" . "dist/")
+ ("/Users/victor/work/govwizely/backbone-explorer/bower_components/" . "bootstrap-sass/")
+ ("/Users/victor/codes/explorer/public/" . "javascripts/")
+ ("/Users/victor/codes/explorer/" . "public/")
+ ("/Users/victor/codes/backbone-boilerplate/build/" . "tasks/")
+ ("/Users/victor/codes/backbone-boilerplate/" . "build/")
+ ("/Users/victor/codes/" . "rts-phaser/")
+ ("/Users/victor/codes/explorer/test/" . "client/")
+ ("/Users/victor/work/govwizely/backbone-explorer/app/views/" . "partials/")
+ ("/Users/victor/work/govwizely/backbone-explorer/" . "src/")
+ ("/Users/victor/work/govwizely/backbone-boilerplate/" . "app/")
+ ("/Users/victor/work/govwizely/backbone-explorer/app/" . "components/")
+ ("/Users/victor/work/govwizely/webservices/spec/controllers/" . "api/")
+ ("/Users/victor/work/govwizely/api-in-a-box/spec/" . "fixtures/")
+ ("/Users/victor/work/govwizely/api-in-a-box/lib/" . "tasks/")
+ ("/Users/victor/work/govwizely/api-in-a-box/" . "vendor/")
+ ("/Users/victor/work/govwizely/webservices/config/" . "environments/")
+ ("/Users/victor/work/govwizely/explorer/bower_components/jquery/" . "dist/")
+ ("/Users/victor/work/govwizely/explorer/bower_components/" . "jquery/")
+ ("/Users/victor/work/govwizely/explorer/vendor/bootstrap/dist/" . "js/")
+ ("/Users/victor/work/govwizely/explorer/vendor/bootstrap/" . "dist/")
+ ("/Users/victor/work/govwizely/explorer/vendor/" . "bootstrap/")
+ ("/Users/victor/work/govwizely/explorer/" . "bower_components/")
+ ("/Users/victor/work/govwizely/explorer/app/routes/" . "country-fact-sheets/")
+ ("/Users/victor/work/govwizely/explorer/app/templates/" . "components/")
+ ("/Users/victor/work/govwizely/explorer/app/controllers/" . "business-service-providers/")
+ ("/Users/victor/work/govwizely/explorer/app/" . "routes/")
+ ("/Users/victor/codes/riotjs/css/" . "components/")
+ ("/Users/victor/work/govwizely/salesforce-ui/" . "backbone/")
+ ("/Users/victor/codes/riotjs/" . "css/")
+ ("/Users/victor/work/govwizely/webservices/spec/fixtures/" . "trade_leads/")
+ ("/Users/victor/work/govwizely/webservices/spec/cassettes/" . "industry_mapping_client/")
+ ("/Users/victor/work/govwizely/webservices/spec/api/v2/" . "business_service_providers/")
+ ("/Users/victor/work/govwizely/webservices/" . "spec/")
+ ("/Users/victor/work/govwizely/webservices/spec/api/v1/" . "country_commercial_guide/")
+ ("/Users/victor/work/govwizely/webservices/spec/api/" . "v2/")
+ ("/Users/victor/work/govwizely/webservices/spec/" . "api/")
+ ("/Users/victor/work/govwizely/webservices/app/views/api/v2/" . "country_fact_sheets/")
+ ("/Users/victor/work/govwizely/webservices/app/views/api/" . "v2/")
+ ("/Users/victor/work/govwizely/webservices/app/views/" . "shared/")
+ ("/Users/victor/work/govwizely/webservices/app/queries/" . "trade_lead/")
+ ("/Users/victor/work/govwizely/webservices/app/models/" . "envirotech/")
+ ("/Users/victor/work/govwizely/webservices/lib/" . "tasks/")
+ ("/Users/victor/work/govwizely/webservices/spec/importers/envirotech/" . "analysis_link/")
+ ("/Users/victor/work/govwizely/webservices/spec/importers/" . "business_service_provider/")
+ ("/Users/victor/work/govwizely/webservices/app/controllers/api/v2/" . "trade_events/")
+ ("/Users/victor/work/govwizely/webservices/app/controllers/api/" . "v2/")
+ ("/Users/victor/work/govwizely/webservices/app/controllers/" . "api/")
+ ("/Users/victor/work/govwizely/webservices/app/importers/" . "tariff_rate/")
+ ("/Users/victor/work/govwizely/webservices/app/" . "models/")
+ ("/Users/victor/work/govwizely/content-explorer/" . "app/")
+ ("/Users/victor/work/govwizely/content-explorer/app/templates/" . "articles/")
+ ("/Users/victor/work/govwizely/content-explorer/app/controllers/" . "articles/")
+ ("/Users/victor/work/govwizely/content-explorer/app/routes/" . "articles/")
+ ("/Users/victor/work/govwizely/content-explorer/app/" . "models/")
+ ("/Users/victor/work/govwizely/api-in-a-box/app/" . "services/")
+ ("/Users/victor/work/govwizely/" . "market-intelligence-search-app/")
+ ("/Users/victor/work/" . "govwizely/")
+ ("/Users/victor/" . ".emacs.d/")
+ ("/Users/victor/.emacs.d/" . "config/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/victor/work/avvo/atlas-indexer/config/"
+ "/Users/victor/work/avvo/atlas-indexer/app/importers/concerns/"
+ "/Users/victor/work/avvo/atlas-indexer/"
+ "/Users/victor/work/avvo/atlas-indexer/lib/atlas/search/"
+ "/Users/victor/work/avvo/atlas-indexer/test/queries/"
+ "/Users/victor/work/viclim/mlib/mlib-server/src/routes/"
+ "/Users/victor/work/viclim/mlib/mlib-server/src/models/"
+ "/Users/victor/work/viclim/mlib/mlib-server/src/"
+ "/Users/victor/work/avvo/fbbot/lib/fbbot/"
+ "/Users/victor/work/avvo/fbbot/lib/fbbot/brain/"
+ "/Users/victor/work/avvo/fbbot/"
+ "/Users/victor/work/avvo/atlas-indexer/app/queries/concerns/"
+ "/Users/victor/work/avvo/atlas-indexer/app/importers/"
+ "/Users/victor/work/avvo/atlas-indexer/tmp/"
+ "/Users/victor/work/avvo/atlas-indexer/test/benchmarks/"
+ "/Users/victor/work/avvo/amos/"
+ "/Users/victor/work/viclim/protobuf-demo/"
+ "/Users/victor/work/avvo/gnomon/db/"
+ "/Users/victor/work/avvo/activerecord-mysql2spatial-adapter/lib/active_record/"
+ "/Users/victor/work/avvo/activerecord-mysql2spatial-adapter/lib/active_record/connection_adapters/mysql2spatial_adapter/"
+ "/Users/victor/work/avvo/atlas-indexer/test/models/elastic/"
+ "/Users/victor/work/avvo/atlas-indexer/app/models/"
+ "/Users/victor/work/avvo/atlas-indexer/app/jobs/"
+ "/Users/victor/work/avvo/atlas-indexer/app/serializers/"
+ "/Users/victor/work/avvo/atlas-indexer/app/aggregators/"
+ "/Users/victor/work/rust/entropy/src/support_gfx/"
+ "/Users/victor/work/avvo/content/"
+ "/Users/victor/work/avvo/rubber/lib/rubber/indices/"
+ "/Users/victor/work/avvo/rubber/"
+ "/Users/victor/work/avvo/avvo_common/lib/avvo_common/projects/search/lib/search/autocomplete/"
+ "/Users/victor/work/avvo/atlas-indexer/app/search/lawyer_serp/"
+ "/Users/victor/work/avvo/atlas-indexer/app/search/question/"
+ "/Users/victor/work/rust/variables/src/"
+ "/Users/victor/work/rust/hello_world/"
+ "/Users/victor/work/viclim/frontpage/app/models/"
+ "/Users/victor/work/avvo/atlas-indexer/lib/atlas/repository/"
+ "/Users/victor/work/avvo/atlas-indexer/config/initializers/"
+ "/Users/victor/work/avvo/atlas-indexer/app/models/adapter/content/"
+ "/Users/victor/work/avvo/atlas-indexer/test/models/strategies/"
+ "/Users/victor/work/avvo/post_office/lib/event_logger/"
+ "/Users/victor/work/avvo/presto/"
+ "/Users/victor/work/avvo/avvo_common/"
+ "/Users/victor/work/avvo/avvo_common/lib/avvo_common/projects/barrister/app/models/barrister/"
+ "/Users/victor/work/avvo/post_office/app/jobs/"
+ "/Users/victor/work/avvo/post_office/lib/"
+ "/Users/victor/work/avvo/post_office/test/lib/"
+ "/Users/victor/work/avvo/post_office/app/models/tracking_extract/"
+ "/Users/victor/work/avvo/amos/lib/jobs/"
+ "/Users/victor/work/avvo/amos/lib/tasks/"
+ "/Users/victor/work/avvo/post_office/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "secrets.yml"
+ "concurrent_importable.rb"
+ "Gemfile.lock"
+ "builder.rb"
+ "global_query_spec.rb"
+ "books.rs"
+ "mod.rs"
+ "main.rs"
+ "book_route.rs"
+ "book.rs"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/victor/work/avvo/atlas-indexer/config/" (23845 38837 47232 660000) "initializers/" "solicitor.yml" "elasticsearch.yml" "content.yml" "boot.rb" "database.yml" "credentials.yml.enc" "puma.rb" "application.rb" "redis.yml" "environment.rb" "spring.rb" "environments/" "locales/" "skills.yml" "quasi.yml" "sidekiq.yml" "routes.rb" "secrets.yml" "kafka.yml" "../" "./")
+
+ ("/Users/victor/work/avvo/atlas-indexer/app/importers/concerns/" (23842 45872 810519 180000) "importable.rb" "concurrent_importable.rb" "sequential_importable.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/atlas-indexer/" (23836 54191 656177 384000) "vendor/" "tmp/" ".circleci/" "data/" ".git/" "Gemfile.lock" "log/" "requirements.yml" ".rubocop.yml" "Gemfile" "lib/" ".gitignore" "public/" "Rakefile" "README.md" ".bundle/" "config.ru" "Dockerfile" "config/" "bin/" "test/" ".ruby-version" "app/" "../" "./")
+
+ ("/Users/victor/work/avvo/atlas-indexer/lib/atlas/search/" (23836 51176 425519 93000) "boosting.rb" "builder.rb" "highlighter.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/atlas-indexer/test/queries/" (23835 295 871315 241000) "global_query_spec.rb" "../" "./")
+
+ ("/Users/victor/work/viclim/mlib/mlib-server/migrations/2019-06-30-071051_create_books/" (23832 43879 808395 925000) "down.sql" "up.sql" "../" "./")
+
+ ("/Users/victor/work/viclim/mlib/mlib-server/src/" (23832 41727 32397 260000) "routes/" ".#lib.rs" "main.rs" "epub.rs" ".#epub.rs" "schema.rs" "models/" "lib.rs" "../" "./")
+
+ ("/Users/victor/work/viclim/mlib/mlib-server/" (23832 41644 105994 867000) "src/" "tmp/" ".git/" "docker-compose.yml" "diesel.toml" ".env" ".gitignore" "Cargo.lock" "target/" "migrations/" "Cargo.toml" "../" "./")
+
+ ("/Users/victor/work/viclim/mlib/mlib-server/src/routes/" (23832 39974 15053 526000) "mod.rs" "books.rs" "../" "./")
+
+ ("/Users/victor/work/viclim/mlib/mlib-server/src/models/" (23832 39640 716245 249000) "mod.rs" "../" "./")
+
+ ("/Users/victor/work/avvo/fbbot/lib/fbbot/brain/" (23830 18674 374926 153000) ".#interpreter.rb" "memory.rb" "interpreter.rb" "context.rb" "responder.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/fbbot/lib/fbbot/" (23830 8546 989385 948000) "resolver/" "version.rb" "config.rb" "brain/" "aggregator.rb" "setup.rb" "parser.rb" "application.rb" "brain.rb" "aggregator/" "resolver.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/fbbot/" (23828 51055 830108 391000) ".git/" "Gemfile.lock" "Gemfile" "lib/" ".gitignore" "Rakefile" "README.md" "fbbot.gemspec" "spec/" "config.ru" "Dockerfile" "config/" "bin/" ".ruby-version" "../" "./")
+
+ ("/Users/victor/work/avvo/atlas-indexer/app/queries/concerns/" (23825 62419 724187 709000) "type_queryable.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/atlas-indexer/app/importers/" (23818 23832 878726 641000) "concerns/" "question_importer.rb" "legal_guide_importer.rb" "specialty_importer.rb" "launch_page_importer.rb" "lawyer_importer.rb" "lawyer_serp_importer.rb" "topic_importer.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/atlas-indexer/app/aggregators/lawyer_serp/" (23802 15391 500246 674000) "concerns/" "scopes/" "specialty_only_aggregator.rb" "location_only_aggregator.rb" "location_specialty_aggregator.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/atlas-indexer/tmp/" (23808 53906 555140 570000) "memory_profiling" "caching-dev.txt" ".keep" "restart.txt" "sockets/" "cache/" "pids/" "../" "./")
+
+ ("/Users/victor/work/avvo/atlas-indexer/test/benchmarks/" (23808 53960 707242 489000) "memory_profiling_spec.rb" "import_benchmark.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/atlas-indexer/tmp/cache/" (23808 49458 235658 619000) "bootsnap-compile-cache/" "bootsnap-load-path-cache" "../" "./")
+
+ ("/Users/victor/work/nand2tetris/projects/05/" (22666 57698 0 0) "ComputerAdd.cmp" "ComputerRect.cmp" "CPU-external.tst" "ComputerAdd-external.cmp" "ComputerRect-external.cmp" "CPU.tst" "Memory.cmp" "CPU.hdl" "Rect.hack" "ComputerMax.tst" "Max.hack" "ComputerMax-external.cmp" "ComputerMax.cmp" "Computer.hdl" "Memory.hdl" "ComputerRect-external.tst" "CPU.cmp" "Memory.tst" "ComputerMax-external.tst" "Add.hack" "ComputerAdd-external.tst" "CPU-external.cmp" "ComputerAdd.tst" "ComputerRect.tst" "../" "./")
+
+ ("/Users/victor/work/avvo/amos/" (23791 33502 954975 414000) "vendor/" ".eslintrc.json" "tmp/" ".circleci/" "data/" ".git/" "Capfile" "Brewfile" "doc/" "Gemfile.lock" "log/" "requirements.yml" "Gemfile" "db/" "lib/" "hooks/" "package.json" "package-lock.json" ".gitignore" "public/" ".dockerignore" "yarn.lock" "Rakefile" "README.md" "script/" ".jshintrc" "spec/" ".bundle/" "node_modules/" "config.ru" "Dockerfile" "config/" "bin/" "test/" ".ruby-version" "app/" ".DS_Store" "Guardfile" ".postcssrc.yml" ".babelrc" "../" "./")
+
+ ("/Users/victor/work/viclim/protobuf-demo/" (23788 45405 90335 632000) "demo_pb.rb" "main.rb" ".ruby-version" "demo.proto" "../" "./")
+
+ ("/Users/victor/work/avvo/gnomon/db/" (23787 61354 665692 949000) "gnomon.mwb" "migrate/" "seeds.rb" ".DS_Store" "structure.sql" "../" "./")
+
+ ("/Users/victor/work/avvo/activerecord-mysql2spatial-adapter/lib/active_record/" (23784 26518 989740 97000) "connection_adapters/" "type/" "spatial_factory_store.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/activerecord-mysql2spatial-adapter/lib/active_record/connection_adapters/mysql2spatial_adapter/" (23784 24676 341589 960000) "arel_tosql.rb" "version.rb" "spatial_column.rb" "column_methods.rb" "main_adapter.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/atlas-indexer/test/models/elastic/" (23782 50495 49438 190000) "index_spec.rb" "base_spec.rb" "document_spec.rb" "search_response_spec.rb" "alias_spec.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/atlas-indexer/.circleci/" (23778 27888 349572 744000) "config.yml" "../" "./")
+
+ ("/Users/victor/work/avvo/atlas-indexer/app/models/elastic/" (23781 28920 141908 742000) "concerns/" "index.rb" "alias.rb" "search_response.rb" "document.rb" "base.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/atlas-indexer/app/models/" (23781 23643 875879 343000) "concerns/" "suggestion.rb" "global.rb" "specialty.rb" "registry.rb" "kafka/" "question.rb" "legal_guide.rb" "lawyer_serp.rb" "location.rb" "topic.rb" "lawyer.rb" "elastic/" "launch_page.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/atlas-indexer/app/jobs/" (23727 37568 296036 151000) "application_job.rb" "entity_import_job.rb" "lawyer_upsert_job.rb" "question_upsert_job.rb" "legal_guide_upsert_job.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/atlas-indexer/app/serializers/lawyer_serp/" (23781 19017 549033 896000) "location_only_serializer.rb" "base_serializer.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/atlas-indexer/app/serializers/" (23781 18475 708510 117000) "topic_serializer.rb" "specialty_serializer.rb" "lawyer_serializer.rb" "launch_page_serializer.rb" "legal_guide_serializer.rb" "question_serializer.rb" "answer_serializer.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/atlas-indexer/app/entities/" (23781 18500 301014 742000) "classifier.rb" "lawyer_serp/" "entity.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/atlas-indexer/app/entities/lawyer_serp/" (23762 38108 98869 770000) "location_specialty/" "arel_table.rb" "headshot.rb" "specialty_only/" "location_only/" "mapping.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/atlas-indexer/app/entities/lawyer_serp/location_only/" (23762 38108 107537 964000) "aggregator.rb" "serializer.rb" "repository.rb" "scope.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/atlas-indexer/app/entities/launch_pages/" (23781 3255 575636 648000) "serializer.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/atlas-indexer/app/aggregators/" (23781 3082 446830 780000) "legal_guide_aggregator.rb" "lawyer_aggregator.rb" "specialty_aggregator.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/atlas-indexer/app/entities/lawyer/" (23781 1900 317532 104000) "aggregator.rb" ".#repository.rb" "serializer.rb" "repository.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/atlas-indexer/app/" (23779 45455 770138 636000) "entities/" "controllers/" "jobs/" "serializers/" "models/" "queries/" "importers/" "aggregators/" "searches/" "../" "./")
+
+ ("/Users/victor/work/avvo/atlas-indexer/app/entities/legal_guide/" (23771 54368 544930 511000) "aggregator.rb" "serializer.rb" "repository.rb" "../" "./")
+
+ ("/Users/victor/work/rust/entropy/src/support_gfx/" (23777 38140 118062 414000) "mod.rs" "../" "./")
+
+ ("/Users/victor/work/avvo/content/" (23672 57547 712273 530000) "vendor/" ".circleci/" "data/" ".git/" "Capfile" "doc/" "Gemfile.lock" "requirements.yml" "Gemfile" "db/" "lib/" "hooks/" ".gitignore" "public/" ".dockerignore" "Rakefile" "README.md" "script/" "DEPENDENCIES.md" "config.ru" "Dockerfile" "config/" "bin/" "test/" "app/" "../" "./")
+
+ ("/Users/victor/work/avvo/rubber/lib/rubber/indices/" (23684 49026 556600 878000) "index.rb" "collection.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/rubber/" (23684 41182 23864 99000) ".travis.yml" ".git/" "Gemfile.lock" "Gemfile" "lib/" ".gitignore" "Rakefile" "README.md" "spec/" "rubber.gemspec" "bin/" ".rspec" ".rspec_status" "../" "./")
+
+ ("/Users/victor/work/avvo/avvo-models/lib/avvo_models/services/solicitor/" (23682 23015 844666 846000) "sanction_type.rb" "media.rb" "professional_status.rb" "professional.rb" "address.rb" "licensing_authority_sanction.rb" "specialty.rb" "licensing_authority.rb" "professional_specialty.rb" "professional_review.rb" "license.rb" "sanction.rb" "professional_media.rb" "professional_address.rb" "professional_alias.rb" "base.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/avvo_common/lib/avvo_common/projects/search/lib/search/autocomplete/" (23502 8177 918126 149000) "hospital_autocomplete.rb" "award_grantor_autocomplete.rb" "firm_autocomplete.rb" "title_autocomplete.rb" "award_autocomplete.rb" "degree_area_autocomplete.rb" "specialty_autocomplete.rb" "publication_autocomplete.rb" "sponsor_autocomplete.rb" "organization_position_autocomplete.rb" "position_autocomplete.rb" "company_autocomplete.rb" "organization_autocomplete.rb" "medical_procedure_autocomplete.rb" "school_autocomplete.rb" "certification_autocomplete.rb" "degree_level_autocomplete.rb" "base.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/atlas-indexer/app/search/lawyer_serp/" (23632 26858 81704 2000) "repository.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/atlas-indexer/app/search/global/" (23632 26826 679377 600000) "repository.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/atlas-indexer/app/search/" (23632 26826 682316 507000) "global/" "lawyer/" "lawyer_serp/" "specialty/" "question/" "topic/" "legal_guide/" "../" "./")
+
+ ("/Users/victor/work/avvo/atlas-indexer/app/search/question/" (23632 26577 937941 964000) "repository.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/atlas-indexer/test/entities/global/" (23632 25711 149286 372000) "repository_test.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/amos/lib/jobs/" (23632 5313 36281 301000) "queue_qa_outcome_mails.rb" "recalculate_professional_answer_counts.rb" "fetch_jobvite_jobs.rb" "send_digest_question_notification.rb" "queue_addresses_for_geocoding.rb" "async_job.rb" "queue_autocomplete_for_indexing.rb" "truncate_notifications.rb" "notify_answer.rb" "queue_headshot_rename.rb" "question_updated_notification.rb" "send_top_contributor_email.rb" "ngage_importer.rb" "comment_notification.rb" "market_level_data_created.rb" "cleanup_unused_provisioned_numbers.rb" "generate_ask_feed.rb" "send_question_followup.rb" "retrain.rb" "update_messaging_professional_contact.rb" "market_level_data_updated.rb" "automerge_professionals.rb" "delete_media.rb" "password_cracker.rb" "score_professional.rb" "queue_for_indexing.rb" "populate_targeted_reviews.rb" "notify_comment.rb" "load_geo_ip_city.sql.erb" "google_local.rb" "queue_all_professionals_for_scoring.rb" "index_document.rb" "notify_review.rb" "cache_reverse_ip_lookup.rb" "send_client_review_approval_status_mail.rb" "import_tower_data.rb" "train_ugc_spam.rb" "related_content_digest.rb" "score_professionals.rb" "send_question_confirmation_email.rb" "bounce_list_fetch_and_process.rb" "send_digest_question_notification_email.rb" "send_qa_outcome_mails.rb" "load_geo_ip_city.rb" "answer_notification.rb" "import_tower_data_batch.rb" "automerge_professionals_batch.rb" "best_answer_notification.rb" "send_client_choice_email.rb" "bulk_claim.rb" "geocode_address.rb" "queue_api_autocomplete_for_indexing.rb" "force_password_reset.rb" "request_lawyer_answer_reminder.rb" "cleanup_invalid_apns_tokens.rb" "queue_validate_website_url.rb" "dev_media_sync.rb" "clear_devalue_lawyer_batch.rb" "standardize_address.rb" "queue_claimed_professionals_for_scoring.rb" "review_request_reminder.rb" "update_top_legal_blogs.rb" "index_documents.rb" "send_new_consumer_email.rb" "send_email.rb" "remove_old_answer_drafts.rb" "bing_local.rb" "util_sitemap.rb" "check_ugc_spam.rb" "headshot_renamer.rb" "optimize_solr_index.rb" "snapshot_leaderboards.rb" "devalue_lawyer_csv.rb" "pull_call_data.rb" "validate_website_url.rb" "notify_vote.rb" "update_professional_search_counts.rb" "devalue_lawyer_batch.rb" "data_mapping.rb" "notify_endorsement.rb" "send_immediate_question_notification.rb" "bounce_list_generate.rb" "log_professional_search.rb" "market_level_data_deleted.rb" "train_professional_name.rb" "queue_helper.rb" "ngage_lawyer_purge.rb" "../" "./")
+
+ ("/Users/victor/work/rust/variables/src/" (23630 40115 322609 163000) "main.rs" "../" "./")
+
+ ("/Users/victor/work/rust/hello_world/" (23630 37962 882236 120000) "main" "main.rs" "../" "./")
+
+ ("/Users/victor/work/viclim/frontpage/app/models/" (23618 58014 136696 418000) "concerns/" "application_record.rb" "page.rb" "site.rb" "url.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/atlas-indexer/lib/atlas/repository/" (23618 321 751108 224000) "read_write_alias.rb" "index.rb" "subscription.rb" "alias.rb" "persistence.rb" "document_collection.rb" "index_collection.rb" "core.rb" "collection.rb" "search.rb" "errors.rb" "aliased_index_collection.rb" "source.rb" "base.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/atlas-indexer/config/initializers/" (23613 39561 609268 898000) "elasticsearch.rb" "cache_store.rb" "inflections.rb" "sidekiq.rb" "wrap_parameters.rb" "filter_parameter_logging.rb" "mime_types.rb" "backtrace_silencers.rb" "application_controller_renderer.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/atlas-indexer/app/models/repository/" (23612 18557 119325 272000) "question.rb" "legal_guide.rb" "lawyer_serp.rb" "topic.rb" "lawyer.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/atlas-indexer/app/models/adapter/content/" (23612 18557 119708 23000) "base.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/atlas-indexer/app/models/strategies/" (23608 50141 171276 140000) "timestamp_reindexable.rb" "single_alias_reindexable.rb" "reindexable.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/atlas-indexer/test/models/strategies/" (23608 38832 824542 307000) "timestamp_reindexable_test.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/post_office/lib/event_logger/" (23541 4555 449375 232000) "email_event.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/presto/" (23530 33017 290128 643000) "vendor/" "tmp/" ".git/" "Capfile" "docker-compose.yml" "Gemfile.lock" "dev/" "requirements.yml" "Gemfile" "lib/" ".gitignore" ".dockerignore" "Rakefile" "fig.yml" "README.md" "fig_production.yml" "presto.gemspec" "Dockerfile" "config/" "bin/" "test/" "docker_build.sh" ".capistrano/" "../" "./")
+
+ ("/Users/victor/work/avvo/avvo_common/" (23523 55794 478959 470000) "vendor/" ".travis.yml" ".circleci/" ".git/" "Gemfile.lock" "Gemfile" "lib/" ".gitignore" "Rakefile" "README.md" "CHANGELOG.md" "bin/" "test/" "deprecations.md" "tasks/" "avvo_common.gemspec" "../" "./")
+
+ ("/Users/victor/work/avvo/avvo_common/lib/avvo_common/projects/barrister/app/models/barrister/" (23520 26772 35689 632000) "professional_payment_type.rb" "additional_profile_link_type.rb" "school.rb" "sanction_type.rb" "board.rb" "claim_by_phone.rb" "professional_feature_helper.rb" "media.rb" "standardized_address.rb" "professional_status.rb" "legal_case.rb" "degree_level.rb" "professional_bio.rb" "creditcard_type.rb" "award_alias.rb" "professional_contact_by_email.rb" "barrister_base.rb" "professional_firm_office.rb" "license_self_report_discipline.rb" "phone.rb" "professional.rb" "address.rb" "billing_type.rb" "school_alias.rb" "professional_contact_method.rb" "professional_contact.rb" "degree_level_alias.rb" "award_grantor.rb" "contact_method.rb" "school_type.rb" "relationship.rb" "professional_award.rb" "certification.rb" "professional_not_practicing.rb" "firm_office.rb" "media_provider.rb" "company_rank.rb" "licensing_authority_sanction.rb" "recognition_type.rb" "specialty_alias.rb" "scoring_attribute.rb" "company.rb" "not_practicing_reason.rb" "partner_website.rb" "penalty_box.rb" "number_of_lawyers_used.rb" "additional_profile_link.rb" "connection_type.rb" "license_status_override.rb" "top_list.rb" "media_application.rb" "professional_merge_model.rb" "degree_type.rb" "search_log.rb" "forwarding_phone_override.rb" "professional_top_list.rb" "organization.rb" "specialty.rb" "claim_by_phone_status.rb" "licensing_authority.rb" "professional_rating_helper.rb" "feature.rb" "phone_call_record.rb" "featured_professional_review.rb" "professional_certification.rb" "professional_scoring_log.rb" "professional_connection.rb" "professional_specialty.rb" "professional_billing_type.rb" "professional_review.rb" "mime_type.rb" "phone_type.rb" "wait_time.rb" "professional_publication.rb" "tagline.rb" "professional_status_helper.rb" "search_term.rb" "provisioned_phone.rb" "professional_experience_helper.rb" "specialty_list.rb" "ranking_body.rb" "payment_type.rb" "speaking_engagement.rb" "organization_position.rb" "professional_language.rb" "professional_merge_helper.rb" "bulk_claim.rb" "professional_feature.rb" "licensing_authority_status.rb" "license.rb" "license_status_type.rb" "company_size.rb" "lawyer.rb" "professional_changed.rb" "professional_association.rb" "position.rb" "scoring_category.rb" "permissions_helper.rb" "publication.rb" "professional_case_helper.rb" "language.rb" "organization_alias.rb" "professional_contact_by_phone.rb" "publication_alias.rb" "school_rank.rb" "claim_by_social_login.rb" "sanction.rb" "claim_method.rb" "sponsor.rb" "media_use_type.rb" "professional_merge.rb" "professional_organization.rb" "professional_endorsement.rb" "professional_media.rb" "professional_name_helper.rb" "firm.rb" "professional_contact_phone.rb" "professional_tracking.rb" "search_term_specialty.rb" "professional_specialty_expertise.rb" "legal_case_disclaimer.rb" "expertise_list.rb" "related_specialty.rb" "degree_area.rb" "expertise.rb" "professional_address.rb" "professional_expertise_helper.rb" "professional_contact_by_website.rb" "licensing_authority_sanction_merge.rb" "professional_school.rb" "award.rb" "date_helper.rb" "title.rb" "endorsement_request_key.rb" "professional_address_helper.rb" "review_type.rb" "professional_category_score.rb" "sponsor_alias.rb" "time_ago_used.rb" "professional_alias.rb" "acceptance_type.rb" "scoring_category_attribute.rb" "licensing_authority_status_merge.rb" "professional_company.rb" "professional_contact_by_chat.rb" "organization_position_alias.rb" "professional_billing.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/post_office/app/jobs/" (23512 37824 461818 750000) "send_email_job.rb" "process_tracking_extract_job.rb" "request_tracking_extract_job.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/post_office/lib/" (23512 37824 460493 841000) "assets/" "capistrano/" "marketing_cloud_sdk.rb" "event_logger.rb" "marketing_cloud_sdk/" "post_office-contract/" "tasks/" "../" "./")
+
+ ("/Users/victor/work/avvo/avvo_common/lib/avvo_common/projects/extensions/lib/extensions/reviews/" (23502 8177 425703 116000) "concerns/" "review.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/post_office/test/jobs/" (23511 45869 138375 721000) "request_tracking_extract_job_test.rb" "process_tracking_extract_job_test.rb" "send_email_job_test.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/post_office/lib/marketing_cloud_sdk/" (23506 32953 422515 740000) "error.rb" "marketing_cloud_sdk.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/post_office/test/lib/" (23506 22324 348553 937000) "marketing_cloud_sdk_test.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/post_office/app/models/tracking_extract/" (23505 58910 47370 735000) "undeliverable_subscriber.rb" "base.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/amos/lib/tasks/" (23401 15157 516144 714000) "generators.rake" "db.rake" "oneoff.rake" "test_ci.rake" "kafka.rake" "debug.rake" "common_tasks.rake" "directory.rake" "adhoc_tasks.rake" "solr.rake" "capistrano.rake" "resque.rake" "../" "./")
+
+ ("/Users/victor/work/avvo/post_office/" (23501 19575 903281 429000) "vendor/" "tmp/" ".circleci/" ".git/" "Capfile" "docker-compose.yml" "Gemfile.lock" "log/" "requirements.yml" "Gemfile" "db/" "lib/" ".github/" "hooks/" ".gitignore" "public/" ".dockerignore" "Rakefile" "README.md" "script/" ".bundle/" "DEPENDENCIES.md" "config.ru" "Dockerfile" "config/" "bin/" "test/" ".ruby-version" "app/" ".DS_Store" ".capistrano/" "../" "./")
+
+ ("/Users/victor/work/avvo/post_office/test/models/tracking_extract/" (23498 10922 726716 188000) "base_test.rb" "undeliverable_subscriber_test.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/post_office/lib/post_office-contract/contracts/2/source/" (23496 40872 282564 727000) "tracking_extract.avdl" "email.avdl" "../" "./")
+
+ ("/Users/victor/work/avvo/post_office/config/" (23496 37534 971764 567000) "initializers/" "event_logger.yml" "deploy.rb" "unicorn.rb" "boot.rb" "database.yml" "application.rb" "redis.yml" "resque-pool.yml" "environment.rb" "recent_emails.yml" "honeybadger.yml" "environments/" "deploy/" "locales/" "marketing_cloud_sdk.yml" "routes.rb" "secrets.yml" "../" "./")
+
+ ("/Users/victor/work/avvo/quasi/test/" (23494 10776 706855 594000) "interfaces/" "helpers/" "controllers/" "jobs/" "test_helper.rb" "fixtures/" "lib/" "factories/" "factories.rb" "service_mocks.rb" "serializers/" "nrt_test_logger.rb" "models/" "quasi_interface_test.rb" "type_assertions.rb" "processes/" "integration/" "mailers/" "mocks/" "../" "./")
+
+ ("/Users/victor/work/avvo/avvo_events/contracts/1/source/" (23493 55711 539056 398000) "services.avdl" "comments.avdl" "ad_request.avdl" "audit.avdl" "lawyers.avdl" "sf_write_error.avdl" "questions.avdl" "backorders.avdl" "quotes.avdl" "users.avdl" "question_updates.avdl" "messages.avdl" "common/" "post_office.avdl" "payments.avdl" "clickstream.avdl" "multi_calls.avdl" "subscriptions.avdl" "phone_calls.avdl" "question_specialties.avdl" "saved_content.avdl" "server_events.avdl" "skills.avdl" "answers.avdl" "../" "./")
+
+ ("/Users/victor/work/avvo/post_office/app/controllers/api/v2/tracking_extracts/" (23493 48061 312248 622000) "undeliverable_subscribers_controller.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/quasi/config/" (23491 28466 319327 957000) "initializers/" "aws_credentials.yml" "resque_schedule.yml" "avvo_hosts.yml" "license_finder.yml" "deploy.rb" "s3.yml" "unicorn.rb" "avvo_oauth.yml" "boot.rb" "database.yml" "application.rb" "redis.yml" "environment.rb" "honeybadger.yml" "environments/" "deploy/" "domains/" "routes.rb" "secrets.yml" "kafka.yml" "../" "./")
+
+ ("/Users/victor/work/avvo/quasi/" (23491 27062 364627 616000) "vendor/" "tmp/" ".circleci/" ".git/" "Capfile" "docker-compose.yml" "Gemfile.lock" "log/" "requirements.yml" ".rubocop.yml" "Gemfile" "db/" "lib/" ".github/" "hooks/" ".gitignore" "public/" ".dockerignore" "Rakefile" "README.md" "DEPENDENCIES.md" "config.ru" "Dockerfile" "config/" "CHANGELOG.md" "bin/" "test/" "app/" "Guardfile" "../" "./")
+
+ ("/Users/victor/work/avvo/amos/config/" (23477 50563 785618 430000) "initializers/" "clean_db.rb" "solicitor.yml" "project_database.yml.erb" "syndication_widgets.yml" "custom_services.yml" "symbolic_names/" "banned_words.txt" "sem_keywords.yml" "settings.yml" "breadcrumbs/" "recaptcha.yml" "hub.yml" "gmaps_api_key.yml" "resque_schedule.yml" "webpacker.yml" "robots/" "zendesk.yml" "com.avvo.AvvoJD-Beta_push_production.pem" "skylight.yml" "license_finder.yml" "algolia.yml" "deploy.rb" "presto.yml" "config.yml" "topic_plus_plus.yml" "navigation_topics.yml" "s3.yml" "carnival.yml" "benchmarks.yml" "phylum_master.yml" "content.yml" "unicorn.rb" "sem.yml" "boot.rb" "qualger/" "exact_target.yml" "topic_legal_guides.yml" "com.avvo.AvvoJD-Beta_push_development.pem" "ils.yml" "webpack/" "database.yml" "phone_filtering.yml" "com.avvo.AvvoJD_push_production.pem" "search/" "com.avvo.AvvoJD-Beta_push_adhoc.pem" "robot-agents.txt" "navigation_overrides.yml" "phylum.yml" "gmaps_static_api_key.yml" "sitemap.yml" "memcached.yml" "com.avvo.AvvoJD_push_development.pem" "twilio_settings.yml" "twitter.yml" "application.rb" "linkedin.yml" "redis.yml" "resque-pool.yml" "environment.rb" "com.avvo.AvvoJD_push_adhoc.pem" "ssl.yml" "detect_language.yml" "honeybadger.yml" "selenium_bvt.rb" "avvo_badges.yml" "environments/" "deploy/" "database.example" "geocoder.yml" "hub_pages/" "messages_v2_rollout.yml" "steno.yml" "black_listed_numbers.txt" "avvo_jobs_config.yml" "homepage/" "locales/" "skills.yml" "facebook.yml" "storefront/" "avvo_boot.rb" "ocato.yml" "stripe.yml" "google.yml" "routes.rb" "advisor/" "topic_pages/" "breadcrumbs.rb" "secrets.yml" "akismet.yml" "solr_master_config.yml" "billboard.yml" "avvo_phylum.yml" "kafka.yml" "post_office.yml" "solr_config.yml" "benchmarks.rb" "area_codes.txt" "reviews.yml" "../" "./")
+
+ ("/Users/victor/work/viclim/wyas/" (23479 34824 502940 33000) ".bash_history" "hello" ".ghc/" "main.hi" "main.hs" "parse" ".cabal/" "main.o" "../" "./")
+
+ ("/Users/victor/work/avvo/post_office/config/initializers/" (23475 27923 446149 96000) "inflections.rb" "resque.rb" "recent_emails.rb" "marketing_cloud.rb" "event_logger.rb" "redis.rb" "cookies_serializer.rb" "revision.rb" "assets.rb" "wrap_parameters.rb" "session_store.rb" "filter_parameter_logging.rb" "mime_types.rb" "backtrace_silencers.rb" "../" "./")
+
+ ("/Users/victor/Desktop/" (23440 57060 448500 527000) "Screen Shot 2018-08-28 at 1.31.52 PM.png" "Screen Shot 2018-08-27 at 9.19.00 PM.png" "armstrong_thesis_2003.pdf" "PS/" "post-dns-prefetch.har" "DeSmuME/" "SS/" "pre-dns-prefetch.har" "rr-452-pd-incident-12801.jakotako.com.har" ".localized" "rr-452-pd-incident-12801-2.jakotako.com.har" ".DS_Store" "Screen Shot 2018-08-28 at 1.08.31 AM.png" "Screen Shot 2018-08-13 at 9.17.04 PM.png" "../" "./")
+
+ ("/Users/victor/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/content-client-1.1.2/lib/content/client/" (23326 4254 567355 888000) "v1.rb" "version.rb" "v2/" "v2.rb" "v1/" "base.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/rsh/src/" (23359 10396 43950 5000) "main.rs" "prompt.rs" "escape.rs" "options.rs" "log.rs" "config.rs" "rancher.rs" "and_select.rs" "pattern.rs" "../" "./")
+
+ ("/Users/victor/work/viclim/hackerrank/" (23356 48675 57076 946000) "src/" ".idea/" ".#euler3.java" "hackerrank.iml" "euler3.java" "out/" "../" "./")
+
+ ("/Users/victor/work/viclim/matcherine/public/" (23355 23698 881587 596000) "index.html" "../" "./")
+
+ ("/Users/victor/work/avvo/ship_it/app/views/setups/" (23355 5653 179297 90000) "show.html.slim" "../" "./")
+
+ ("/Users/victor/work/viclim/matcherine/" (23352 46092 166987 992000) ".git/" ".#actions.js" "wrk.lua" "package.json" "yarn.lock" "skiplist.js" "index.js" "node_modules/" "actions.js" "order.js" "constants.js" "../" "./")
+
+ ("/Users/victor/work/avvo/amos/public/" (23348 37716 327581 706000) "dispatch.cgi" ".htaccess" "blank_iframe.html" "LiveSearchSiteAuth.xml" "rate_limit_exceeded.html" "swf/" "maintenance.html" "dispatch.fcgi" "google384fab25a0a7d803.html" "dispatch.rb" "logo.png" "immigration_final.xml" "packs/" "docs/" "blank.html" "404.html" "500.html" "apple-touch-icon.png" "422.html" "google916896b54fac2833.html" "apache.txt" "favicon.ico" "w3c/" "../" "./")
+
+ ("/Users/victor/work/essayjack/ejb/frontend/src/core/features/main_dashboard/" (23108 63292 175133 876000) "actionTypes.js" "MainDashboardPage.js" "IncompleteEssaysDatagrid.js" "epics.js" "reducers.js" "actions.js" "RecentEssaysDatagrid.js" "../" "./")
+
+ ("/Users/victor/work/EssayJack/ejb/.circleci/" (23108 24156 261628 82000) "config.yml" "../" "./")
+
+ ("/Users/victor/work/gsa/asis/spec/models/" (23091 27512 612083 580000) "flickr_album_detector_spec.rb" "instagram_album_detector_spec.rb" "mrss_profile_spec.rb" "image_search_spec.rb" "album_detection_photo_iterator_spec.rb" "album_detector_spec.rb" "flickr_photo_spec.rb" "mrss_photo_spec.rb" "flickr_profile_spec.rb" "instagram_profile_spec.rb" "instagram_photo_spec.rb" "mrss_album_detector_spec.rb" "../" "./")
+
+ ("/Users/victor/work/gsa/asis/app/models/concerns/" (23090 18198 314934 605000) "indexable_photo.rb" "aliased_index.rb" "../" "./")
+
+ ("/Users/victor/work/gsa/asis/config/" (23089 10412 730296 205000) "newrelic.yml" "initializers/" "instagram.yml.example" "flickr.yml.example" "elasticsearch.yml" "deploy.rb" "instagram_profiles.csv" "boot.rb" "mrss_profiles.csv" "application.rb" "environment.rb" "flickr_profiles.csv" "environments/" "deploy/" "flickr.yml" "airbrake.yml" "schedule.rb" "locales/" "sidekiq.yml" "routes.rb" "secrets.yml" "../" "./")
+
+ ("/Users/victor/work/gsa/jobs_api/" (23088 54005 595656 106000) "coverage/" ".travis.yml" "tmp/" ".codeinventory.yml" ".git/" "Capfile" "doc/" "Gemfile.lock" "log/" "Gemfile" "lib/" ".gitignore" "public/" "Rakefile" "README.md" "spec/" "config.ru" "config/" "bin/" ".ruby-version" "app/" ".ruby-gemset" ".rspec" "LICENSE.md" "../" "./")
+
+ ("/Users/victor/work/gsa/jobs_api/config/environments/" (23088 48693 694673 107000) "test.rb" "development.rb" "production.rb" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
