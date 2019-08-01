@@ -2,7 +2,6 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/Users/victor/work/avvo/atlas-indexer/tmp/" . "cache/")
  ("/Users/victor/work/avvo/atlas-indexer/app/search/" . "global/")
  ("/Users/victor/work/govwizely/zapiness/spec/controllers/" . "admin/")
  ("/Users/victor/work/govwizely/zapiness/lib/assets/endpoint-wizard/src/components/" . "withTour/")
@@ -231,32 +230,7 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/Users/victor/work/avvo/atlas-indexer/config/"
- "/Users/victor/work/avvo/atlas-indexer/app/importers/concerns/"
  "/Users/victor/work/avvo/atlas-indexer/"
- "/Users/victor/work/avvo/atlas-indexer/lib/atlas/search/"
- "/Users/victor/work/avvo/atlas-indexer/test/queries/"
- "/Users/victor/work/viclim/mlib/mlib-server/src/routes/"
- "/Users/victor/work/viclim/mlib/mlib-server/src/models/"
- "/Users/victor/work/viclim/mlib/mlib-server/src/"
- "/Users/victor/work/avvo/fbbot/lib/fbbot/"
- "/Users/victor/work/avvo/fbbot/lib/fbbot/brain/"
- "/Users/victor/work/avvo/fbbot/"
- "/Users/victor/work/avvo/atlas-indexer/app/queries/concerns/"
- "/Users/victor/work/avvo/atlas-indexer/app/importers/"
- "/Users/victor/work/avvo/atlas-indexer/tmp/"
- "/Users/victor/work/avvo/atlas-indexer/test/benchmarks/"
- "/Users/victor/work/avvo/amos/"
- "/Users/victor/work/viclim/protobuf-demo/"
- "/Users/victor/work/avvo/gnomon/db/"
- "/Users/victor/work/avvo/activerecord-mysql2spatial-adapter/lib/active_record/"
- "/Users/victor/work/avvo/activerecord-mysql2spatial-adapter/lib/active_record/connection_adapters/mysql2spatial_adapter/"
- "/Users/victor/work/avvo/atlas-indexer/test/models/elastic/"
- "/Users/victor/work/avvo/atlas-indexer/app/models/"
- "/Users/victor/work/avvo/atlas-indexer/app/jobs/"
- "/Users/victor/work/avvo/atlas-indexer/app/serializers/"
- "/Users/victor/work/avvo/atlas-indexer/app/aggregators/"
- "/Users/victor/work/rust/entropy/src/support_gfx/"
  "/Users/victor/work/avvo/content/"
  "/Users/victor/work/avvo/rubber/lib/rubber/indices/"
  "/Users/victor/work/avvo/rubber/"
@@ -268,10 +242,12 @@
  "/Users/victor/work/viclim/frontpage/app/models/"
  "/Users/victor/work/avvo/atlas-indexer/lib/atlas/repository/"
  "/Users/victor/work/avvo/atlas-indexer/config/initializers/"
+ "/Users/victor/work/avvo/atlas-indexer/app/models/"
  "/Users/victor/work/avvo/atlas-indexer/app/models/adapter/content/"
  "/Users/victor/work/avvo/atlas-indexer/test/models/strategies/"
  "/Users/victor/work/avvo/post_office/lib/event_logger/"
  "/Users/victor/work/avvo/presto/"
+ "/Users/victor/work/avvo/amos/"
  "/Users/victor/work/avvo/avvo_common/"
  "/Users/victor/work/avvo/avvo_common/lib/avvo_common/projects/barrister/app/models/barrister/"
  "/Users/victor/work/avvo/post_office/app/jobs/"
@@ -281,105 +257,48 @@
  "/Users/victor/work/avvo/amos/lib/jobs/"
  "/Users/victor/work/avvo/amos/lib/tasks/"
  "/Users/victor/work/avvo/post_office/"
+ "/Users/victor/work/avvo/post_office/lib/post_office-contract/contracts/2/source/"
+ "/Users/victor/work/avvo/post_office/config/"
+ "/Users/victor/work/avvo/quasi/test/"
+ "/Users/victor/work/avvo/post_office/app/controllers/api/v2/tracking_extracts/"
+ "/Users/victor/work/avvo/amos/config/"
+ "/Users/victor/work/viclim/wyas/"
+ "/Users/victor/work/avvo/post_office/test/jobs/"
+ "/Users/victor/Desktop/"
+ "/Users/victor/work/avvo/rsh/src/"
+ "/Users/victor/work/viclim/hackerrank/"
+ "/Users/victor/work/viclim/matcherine/public/"
+ "/Users/victor/work/avvo/ship_it/app/views/setups/"
+ "/Users/victor/work/viclim/matcherine/"
+ "/Users/victor/work/avvo/amos/public/"
+ "/Users/victor/work/essayjack/ejb/frontend/src/core/features/main_dashboard/"
+ "/Users/victor/work/EssayJack/ejb/.circleci/"
+ "/Users/victor/work/gsa/asis/config/"
+ "/Users/victor/work/gsa/jobs_api/"
+ "/Users/victor/work/cryptominded/contentminded/app/services/"
+ "/Users/victor/work/gsa/jobs_api/config/"
+ "/Users/victor/work/gsa/jobs_api/config/initializers/"
+ "/Users/victor/work/cryptominded/cryptobeers/data/events/"
+ "/Users/victor/work/cryptominded/cryptobeers/source/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "secrets.yml"
- "concurrent_importable.rb"
+ ".ruby-version"
+ "Gemfile"
+ "collection.rb"
+ "rubber.gemspec"
+ "base.rb"
  "Gemfile.lock"
- "builder.rb"
- "global_query_spec.rb"
- "books.rs"
- "mod.rs"
+ "repository.rb"
  "main.rs"
- "book_route.rs"
- "book.rs"
+ "url.rb"
+ "subscription.rb"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/victor/work/avvo/atlas-indexer/config/" (23845 38837 47232 660000) "initializers/" "solicitor.yml" "elasticsearch.yml" "content.yml" "boot.rb" "database.yml" "credentials.yml.enc" "puma.rb" "application.rb" "redis.yml" "environment.rb" "spring.rb" "environments/" "locales/" "skills.yml" "quasi.yml" "sidekiq.yml" "routes.rb" "secrets.yml" "kafka.yml" "../" "./")
-
- ("/Users/victor/work/avvo/atlas-indexer/app/importers/concerns/" (23842 45872 810519 180000) "importable.rb" "concurrent_importable.rb" "sequential_importable.rb" "../" "./")
-
- ("/Users/victor/work/avvo/atlas-indexer/" (23836 54191 656177 384000) "vendor/" "tmp/" ".circleci/" "data/" ".git/" "Gemfile.lock" "log/" "requirements.yml" ".rubocop.yml" "Gemfile" "lib/" ".gitignore" "public/" "Rakefile" "README.md" ".bundle/" "config.ru" "Dockerfile" "config/" "bin/" "test/" ".ruby-version" "app/" "../" "./")
-
- ("/Users/victor/work/avvo/atlas-indexer/lib/atlas/search/" (23836 51176 425519 93000) "boosting.rb" "builder.rb" "highlighter.rb" "../" "./")
-
- ("/Users/victor/work/avvo/atlas-indexer/test/queries/" (23835 295 871315 241000) "global_query_spec.rb" "../" "./")
-
- ("/Users/victor/work/viclim/mlib/mlib-server/migrations/2019-06-30-071051_create_books/" (23832 43879 808395 925000) "down.sql" "up.sql" "../" "./")
-
- ("/Users/victor/work/viclim/mlib/mlib-server/src/" (23832 41727 32397 260000) "routes/" ".#lib.rs" "main.rs" "epub.rs" ".#epub.rs" "schema.rs" "models/" "lib.rs" "../" "./")
-
- ("/Users/victor/work/viclim/mlib/mlib-server/" (23832 41644 105994 867000) "src/" "tmp/" ".git/" "docker-compose.yml" "diesel.toml" ".env" ".gitignore" "Cargo.lock" "target/" "migrations/" "Cargo.toml" "../" "./")
-
- ("/Users/victor/work/viclim/mlib/mlib-server/src/routes/" (23832 39974 15053 526000) "mod.rs" "books.rs" "../" "./")
-
- ("/Users/victor/work/viclim/mlib/mlib-server/src/models/" (23832 39640 716245 249000) "mod.rs" "../" "./")
-
- ("/Users/victor/work/avvo/fbbot/lib/fbbot/brain/" (23830 18674 374926 153000) ".#interpreter.rb" "memory.rb" "interpreter.rb" "context.rb" "responder.rb" "../" "./")
-
- ("/Users/victor/work/avvo/fbbot/lib/fbbot/" (23830 8546 989385 948000) "resolver/" "version.rb" "config.rb" "brain/" "aggregator.rb" "setup.rb" "parser.rb" "application.rb" "brain.rb" "aggregator/" "resolver.rb" "../" "./")
-
- ("/Users/victor/work/avvo/fbbot/" (23828 51055 830108 391000) ".git/" "Gemfile.lock" "Gemfile" "lib/" ".gitignore" "Rakefile" "README.md" "fbbot.gemspec" "spec/" "config.ru" "Dockerfile" "config/" "bin/" ".ruby-version" "../" "./")
-
- ("/Users/victor/work/avvo/atlas-indexer/app/queries/concerns/" (23825 62419 724187 709000) "type_queryable.rb" "../" "./")
-
- ("/Users/victor/work/avvo/atlas-indexer/app/importers/" (23818 23832 878726 641000) "concerns/" "question_importer.rb" "legal_guide_importer.rb" "specialty_importer.rb" "launch_page_importer.rb" "lawyer_importer.rb" "lawyer_serp_importer.rb" "topic_importer.rb" "../" "./")
-
- ("/Users/victor/work/avvo/atlas-indexer/app/aggregators/lawyer_serp/" (23802 15391 500246 674000) "concerns/" "scopes/" "specialty_only_aggregator.rb" "location_only_aggregator.rb" "location_specialty_aggregator.rb" "../" "./")
-
- ("/Users/victor/work/avvo/atlas-indexer/tmp/" (23808 53906 555140 570000) "memory_profiling" "caching-dev.txt" ".keep" "restart.txt" "sockets/" "cache/" "pids/" "../" "./")
-
- ("/Users/victor/work/avvo/atlas-indexer/test/benchmarks/" (23808 53960 707242 489000) "memory_profiling_spec.rb" "import_benchmark.rb" "../" "./")
-
- ("/Users/victor/work/avvo/atlas-indexer/tmp/cache/" (23808 49458 235658 619000) "bootsnap-compile-cache/" "bootsnap-load-path-cache" "../" "./")
-
- ("/Users/victor/work/nand2tetris/projects/05/" (22666 57698 0 0) "ComputerAdd.cmp" "ComputerRect.cmp" "CPU-external.tst" "ComputerAdd-external.cmp" "ComputerRect-external.cmp" "CPU.tst" "Memory.cmp" "CPU.hdl" "Rect.hack" "ComputerMax.tst" "Max.hack" "ComputerMax-external.cmp" "ComputerMax.cmp" "Computer.hdl" "Memory.hdl" "ComputerRect-external.tst" "CPU.cmp" "Memory.tst" "ComputerMax-external.tst" "Add.hack" "ComputerAdd-external.tst" "CPU-external.cmp" "ComputerAdd.tst" "ComputerRect.tst" "../" "./")
-
- ("/Users/victor/work/avvo/amos/" (23791 33502 954975 414000) "vendor/" ".eslintrc.json" "tmp/" ".circleci/" "data/" ".git/" "Capfile" "Brewfile" "doc/" "Gemfile.lock" "log/" "requirements.yml" "Gemfile" "db/" "lib/" "hooks/" "package.json" "package-lock.json" ".gitignore" "public/" ".dockerignore" "yarn.lock" "Rakefile" "README.md" "script/" ".jshintrc" "spec/" ".bundle/" "node_modules/" "config.ru" "Dockerfile" "config/" "bin/" "test/" ".ruby-version" "app/" ".DS_Store" "Guardfile" ".postcssrc.yml" ".babelrc" "../" "./")
-
- ("/Users/victor/work/viclim/protobuf-demo/" (23788 45405 90335 632000) "demo_pb.rb" "main.rb" ".ruby-version" "demo.proto" "../" "./")
-
- ("/Users/victor/work/avvo/gnomon/db/" (23787 61354 665692 949000) "gnomon.mwb" "migrate/" "seeds.rb" ".DS_Store" "structure.sql" "../" "./")
-
- ("/Users/victor/work/avvo/activerecord-mysql2spatial-adapter/lib/active_record/" (23784 26518 989740 97000) "connection_adapters/" "type/" "spatial_factory_store.rb" "../" "./")
-
- ("/Users/victor/work/avvo/activerecord-mysql2spatial-adapter/lib/active_record/connection_adapters/mysql2spatial_adapter/" (23784 24676 341589 960000) "arel_tosql.rb" "version.rb" "spatial_column.rb" "column_methods.rb" "main_adapter.rb" "../" "./")
-
- ("/Users/victor/work/avvo/atlas-indexer/test/models/elastic/" (23782 50495 49438 190000) "index_spec.rb" "base_spec.rb" "document_spec.rb" "search_response_spec.rb" "alias_spec.rb" "../" "./")
-
- ("/Users/victor/work/avvo/atlas-indexer/.circleci/" (23778 27888 349572 744000) "config.yml" "../" "./")
-
- ("/Users/victor/work/avvo/atlas-indexer/app/models/elastic/" (23781 28920 141908 742000) "concerns/" "index.rb" "alias.rb" "search_response.rb" "document.rb" "base.rb" "../" "./")
-
- ("/Users/victor/work/avvo/atlas-indexer/app/models/" (23781 23643 875879 343000) "concerns/" "suggestion.rb" "global.rb" "specialty.rb" "registry.rb" "kafka/" "question.rb" "legal_guide.rb" "lawyer_serp.rb" "location.rb" "topic.rb" "lawyer.rb" "elastic/" "launch_page.rb" "../" "./")
-
- ("/Users/victor/work/avvo/atlas-indexer/app/jobs/" (23727 37568 296036 151000) "application_job.rb" "entity_import_job.rb" "lawyer_upsert_job.rb" "question_upsert_job.rb" "legal_guide_upsert_job.rb" "../" "./")
-
- ("/Users/victor/work/avvo/atlas-indexer/app/serializers/lawyer_serp/" (23781 19017 549033 896000) "location_only_serializer.rb" "base_serializer.rb" "../" "./")
-
- ("/Users/victor/work/avvo/atlas-indexer/app/serializers/" (23781 18475 708510 117000) "topic_serializer.rb" "specialty_serializer.rb" "lawyer_serializer.rb" "launch_page_serializer.rb" "legal_guide_serializer.rb" "question_serializer.rb" "answer_serializer.rb" "../" "./")
-
- ("/Users/victor/work/avvo/atlas-indexer/app/entities/" (23781 18500 301014 742000) "classifier.rb" "lawyer_serp/" "entity.rb" "../" "./")
-
- ("/Users/victor/work/avvo/atlas-indexer/app/entities/lawyer_serp/" (23762 38108 98869 770000) "location_specialty/" "arel_table.rb" "headshot.rb" "specialty_only/" "location_only/" "mapping.rb" "../" "./")
-
- ("/Users/victor/work/avvo/atlas-indexer/app/entities/lawyer_serp/location_only/" (23762 38108 107537 964000) "aggregator.rb" "serializer.rb" "repository.rb" "scope.rb" "../" "./")
-
- ("/Users/victor/work/avvo/atlas-indexer/app/entities/launch_pages/" (23781 3255 575636 648000) "serializer.rb" "../" "./")
-
- ("/Users/victor/work/avvo/atlas-indexer/app/aggregators/" (23781 3082 446830 780000) "legal_guide_aggregator.rb" "lawyer_aggregator.rb" "specialty_aggregator.rb" "../" "./")
-
- ("/Users/victor/work/avvo/atlas-indexer/app/entities/lawyer/" (23781 1900 317532 104000) "aggregator.rb" ".#repository.rb" "serializer.rb" "repository.rb" "../" "./")
-
- ("/Users/victor/work/avvo/atlas-indexer/app/" (23779 45455 770138 636000) "entities/" "controllers/" "jobs/" "serializers/" "models/" "queries/" "importers/" "aggregators/" "searches/" "../" "./")
-
- ("/Users/victor/work/avvo/atlas-indexer/app/entities/legal_guide/" (23771 54368 544930 511000) "aggregator.rb" "serializer.rb" "repository.rb" "../" "./")
-
- ("/Users/victor/work/rust/entropy/src/support_gfx/" (23777 38140 118062 414000) "mod.rs" "../" "./")
+ ("/Users/victor/work/avvo/atlas-indexer/" (23696 37048 772279 69000) "vendor/" "tmp/" ".circleci/" "data/" ".git/" "Gemfile.lock" "log/" "requirements.yml" ".rubocop.yml" "Gemfile" "lib/" ".gitignore" "public/" "Rakefile" "README.md" ".bundle/" "config.ru" "Dockerfile" "config/" "bin/" "test/" ".ruby-version" "app/" "../" "./")
 
  ("/Users/victor/work/avvo/content/" (23672 57547 712273 530000) "vendor/" ".circleci/" "data/" ".git/" "Capfile" "doc/" "Gemfile.lock" "requirements.yml" "Gemfile" "db/" "lib/" "hooks/" ".gitignore" "public/" ".dockerignore" "Rakefile" "README.md" "script/" "DEPENDENCIES.md" "config.ru" "Dockerfile" "config/" "bin/" "test/" "app/" "../" "./")
 
@@ -411,7 +330,13 @@
 
  ("/Users/victor/work/avvo/atlas-indexer/lib/atlas/repository/" (23618 321 751108 224000) "read_write_alias.rb" "index.rb" "subscription.rb" "alias.rb" "persistence.rb" "document_collection.rb" "index_collection.rb" "core.rb" "collection.rb" "search.rb" "errors.rb" "aliased_index_collection.rb" "source.rb" "base.rb" "../" "./")
 
+ ("/Users/victor/work/avvo/atlas-indexer/app/entities/lawyer/" (23615 4936 626565 423000) "aggregator.rb" "serializer.rb" "repository.rb" "../" "./")
+
  ("/Users/victor/work/avvo/atlas-indexer/config/initializers/" (23613 39561 609268 898000) "elasticsearch.rb" "cache_store.rb" "inflections.rb" "sidekiq.rb" "wrap_parameters.rb" "filter_parameter_logging.rb" "mime_types.rb" "backtrace_silencers.rb" "application_controller_renderer.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/atlas-indexer/app/jobs/" (23613 33124 820758 207000) "index_all_of_job.rb" "application_job.rb" "index_paginated_job.rb" "import_job.rb" "../" "./")
+
+ ("/Users/victor/work/avvo/atlas-indexer/app/models/" (23612 37877 33484 134000) "concerns/" "application_record.rb" "aggregator.rb" "kafka/" "aggregator/" "strategies/" "repository.rb" "serializer/" "repository/" "../" "./")
 
  ("/Users/victor/work/avvo/atlas-indexer/app/models/repository/" (23612 18557 119325 272000) "question.rb" "legal_guide.rb" "lawyer_serp.rb" "topic.rb" "lawyer.rb" "../" "./")
 
@@ -424,6 +349,8 @@
  ("/Users/victor/work/avvo/post_office/lib/event_logger/" (23541 4555 449375 232000) "email_event.rb" "../" "./")
 
  ("/Users/victor/work/avvo/presto/" (23530 33017 290128 643000) "vendor/" "tmp/" ".git/" "Capfile" "docker-compose.yml" "Gemfile.lock" "dev/" "requirements.yml" "Gemfile" "lib/" ".gitignore" ".dockerignore" "Rakefile" "fig.yml" "README.md" "fig_production.yml" "presto.gemspec" "Dockerfile" "config/" "bin/" "test/" "docker_build.sh" ".capistrano/" "../" "./")
+
+ ("/Users/victor/work/avvo/amos/" (23524 5403 679342 726000) "vendor/" ".eslintrc.json" "tmp/" ".circleci/" "data/" ".git/" "Capfile" "Brewfile" "doc/" "Gemfile.lock" "log/" "requirements.yml" "Gemfile" "db/" "lib/" "hooks/" "package.json" "package-lock.json" ".gitignore" "public/" ".dockerignore" "yarn.lock" "Rakefile" "README.md" "script/" ".jshintrc" "spec/" "node_modules/" "config.ru" "Dockerfile" "config/" "bin/" "test/" ".ruby-version" "app/" ".DS_Store" "Guardfile" ".postcssrc.yml" ".babelrc" "../" "./")
 
  ("/Users/victor/work/avvo/avvo_common/" (23523 55794 478959 470000) "vendor/" ".travis.yml" ".circleci/" ".git/" "Gemfile.lock" "Gemfile" "lib/" ".gitignore" "Rakefile" "README.md" "CHANGELOG.md" "bin/" "test/" "deprecations.md" "tasks/" "avvo_common.gemspec" "../" "./")
 
@@ -498,6 +425,78 @@
  ("/Users/victor/work/gsa/jobs_api/" (23088 54005 595656 106000) "coverage/" ".travis.yml" "tmp/" ".codeinventory.yml" ".git/" "Capfile" "doc/" "Gemfile.lock" "log/" "Gemfile" "lib/" ".gitignore" "public/" "Rakefile" "README.md" "spec/" "config.ru" "config/" "bin/" ".ruby-version" "app/" ".ruby-gemset" ".rspec" "LICENSE.md" "../" "./")
 
  ("/Users/victor/work/gsa/jobs_api/config/environments/" (23088 48693 694673 107000) "test.rb" "development.rb" "production.rb" "../" "./")
+
+ ("/Users/victor/work/cryptominded/contentminded/app/services/" (23087 45876 920503 722000) "create_entry.rb" "../" "./")
+
+ ("/Users/victor/work/gsa/jobs_api/config/" (23081 4223 742643 803000) "newrelic.yml" "initializers/" ".#routes.rb" "elasticsearch.yml" "synonyms.txt" "deploy.rb" "boot.rb" "geonames_synonyms.txt" "puma.rb" "application.rb" "environment.rb" "spring.rb" "environments/" "deploy/" "airbrake.yml" "routes.rb" "secrets.yml" "../" "./")
+
+ ("/Users/victor/work/gsa/jobs_api/config/initializers/" (23081 2792 389545 692000) "elasticsearch.rb" "secret_token.rb" "faraday_logging.rb" "airbrake.rb" "wrap_parameters.rb" "session_store.rb" "filter_parameter_logging.rb" "tire.rb" "../" "./")
+
+ ("/Users/victor/work/gsa/sample/" (23080 64014 563722 878000) "vendor/" "tmp/" ".git/" "Gemfile.lock" "log/" "Gemfile" "db/" "lib/" ".gitignore" "public/" "Rakefile" "README.md" "config.ru" "config/" "bin/" "test/" "app/" "../" "./")
+
+ ("/Users/victor/work/cryptominded/cryptobeers/data/events/" (23072 10453 754215 256000) "cryptobeers-in-leuven-coop-wereldcafe.yml" "../" "./")
+
+ ("/Users/victor/work/cryptominded/cryptobeers/data/" (23072 10453 754161 312000) "events/" "../" "./")
+
+ ("/Users/victor/work/cryptominded/cryptobeers/" (23072 10453 754124 424000) "data/" ".git/" "build/" "config.rb" "Gemfile.lock" "Gemfile" ".gitignore" "img/" ".sass-cache/" "source/" ".ruby-version" "../" "./")
+
+ ("/Users/victor/work/cryptominded/cryptobeers/source/" (23072 10453 754447 390000) "stylesheets/" "partials/" "events/" "javascripts/" "cities/" "layouts/" "admin/" "images/" "index.html.erb" "../" "./")
+
+ ("/Users/victor/work/cryptominded/cryptobeers/source/events/" (23072 4619 37130 301000) "cryptobeers-in-leuven-coop-wereldcaf-.html.md" "cryptobeers-in-london.html.md" "../" "./")
+
+ ("/Users/victor/work/essayjack/ejb/app/services/" (23067 58529 16 945000) "institution_relations_service.rb" "policy_maker_service.rb" "template_clone_service.rb" "dashboard_url_service.rb" "hubspot_update_service.rb" "legacy_essay_version_dump_handling_service.rb" "payola_subscription_change_handling_service.rb" "registration_handling_service.rb" "subscription_handling_service.rb" "group_relations_service.rb" "../" "./")
+
+ ("/Users/victor/work/EssayJack/ejb/spec/" (23067 56301 162571 490000) "services/" "helpers/" "rails_helper.rb" "controllers/" "jobs/" "routing/" "fixtures/" "lib/" "factories/" "support/" "presenters/" "models/" "values/" "features/" "exporters/" "mailers/" "migrations/" "spec_helper.rb" "../" "./")
+
+ ("/Users/victor/work/cryptominded/contentminded/db/migrate/" (23057 35178 758825 69000) "20171119133850_create_spaces.rb" "20171119075956_devise_create_users.rb" "20171119133643_create_teams.rb" "../" "./")
+
+ ("/Users/victor/work/govwizely/zapiness/config/environments/" (23052 7163 291082 87000) "test.rb" "development.rb" "../" "./")
+
+ ("/Users/victor/work/EssayJack/ejb/" (23039 58807 475058 859000) "vendor/" "coverage/" "tmp/" ".git/" "Capfile" ".bundler/" "docker-compose.yml" "Gemfile.lock" "log/" ".rubocop.yml" "Gemfile" "db/" "lib/" "mucho_meta" "circle.yml" "Procfile.dev" "package.json" ".gitignore" "public/" ".dockerignore" "Rakefile" "README.md" ".elasticbeanstalk/" "spec/" ".bundle/" "node_modules/" "config.ru" "deploy/" "Dockerfile" "config/" "bin/" ".ruby-version" "frontend/" "app/" ".ruby-gemset" ".rspec" "../" "./")
+
+ ("/Users/victor/work/cryptominded/historical/" (23041 18567 574965 890000) "Gemfile.lock" ".rubocop.yml" "Gemfile" "main.rb" "../" "./")
+
+ ("/Users/victor/work/gems/bootsnap/lib/bootsnap/compile_cache/" (23040 6523 528489 334000) "iseq.rb" "yaml.rb" "../" "./")
+
+ ("/Users/victor/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootsnap-1.1.3/lib/bootsnap/compile_cache/" (23040 4594 844378 490000) "iseq.rb" "yaml.rb" "../" "./")
+
+ ("/Users/victor/work/govwizely/zapiness/app/controllers/" (23035 61034 0 0) "subscriptions/" "shared_methods.rb" "sessions_controller.rb" "root_controller.rb" "registrations_controller.rb" "organizations_controller.rb" "onboard_controller.rb" "memberships_controller.rb" "linked_accounts_controller.rb" "landing_controller.rb" "invitations_controller.rb" "invitation_accept_controller.rb" "guests_controller.rb" "errata_controller.rb" "endpoints_controller.rb" "endpoint_imports_controller.rb" "dashboard_controller.rb" "concerns/" "application_controller.rb" "api/" "admin/" "../" "./")
+
+ ("/Users/victor/work/govwizely/zapiness/lib/assets/endpoint-wizard/src/containers/Upload/" (23035 13324 0 0) "Upload.js" "RecentUpload.js" "LinkedAccountForm.js" "Form.js" "../" "./")
+
+ ("/Users/victor/work/govwizely/zapiness/spec/services/external_accounts/" (22950 24517 0 0) "office365_spec.rb" "google_spec.rb" "../" "./")
+
+ ("/Users/victor/work/govwizely/zapiness/.docker/proxy/nginx/conf.d/" (23025 57336 0 0) "proxy.conf" "../" "./")
+
+ ("/Users/victor/work/govwizely/zapiness/.docker/nginx/conf.d/" (23025 54401 0 0) "default.conf" "../" "./")
+
+ ("/Users/victor/work/govwizely/zapiness/.docker/proxy/" (23024 23860 0 0) "nginx/" "../" "./")
+
+ ("/Users/victor/work/govwizely/zapiness/app/models/marketings/" (23013 57878 0 0) "subscriber.rb" "group.rb" "base.rb" "../" "./")
+
+ ("/Users/victor/work/govwizely/zapiness/" (23012 40138 0 0) "vendor/" "tmp/" "spec/" "README.md" "Rakefile" "public/" "Procfile.dev" "path/" "node_modules/" "log/" "lib/" "Guardfile" "Gemfile.lock" "Gemfile" "Dockerfile" "docker-compose.yml" "db/" "coverage/" "config.ru" "config/" "circle.yml" "certs/" "bin/" "app/" ".ruby-version" ".rubocop.yml" ".rspec" ".powrc" ".ignore" ".gitignore" ".git/" ".eslintrc" ".eslintignore" ".DS_Store" ".bundle/" "../" "./")
+
+ ("/Users/victor/work/govwizely/zapiness/bin/" (22941 15487 0 0) "spring" "setup" "rspec" "rake" "rails" "bundle" "../" "./")
+
+ ("/Users/victor/work/govwizely/zAPIness-cookbook/zapiness_app/templates/default/" (22895 16139 0 0) "stripe.yml.erb" "start-sidekiq.sh.erb" "sidekiq.yml.erb" "sidekiq.monitrc.erb" "secrets.yml.erb" "remote_apps.yml.erb" "redis.yml.erb" "environments_application.rb.erb" "elasticsearch.yml.erb" "devise.yml.erb" "apib_session.yml.erb" "../" "./")
+
+ ("/Users/victor/work/govwizely/zapiness/spec/" (22987 35617 0 0) "workers/" "webhooks/" "views/" "vcr/" "values/" "support/" "spec_helper.rb" "services/" "routing/" "requests/" "rails_helper.rb" "queries/" "presenters/" "policies/" "models/" "mailers/" "lib/" "helpers/" "fixtures/" "features/" "factories/" "controllers/" "../" "./")
+
+ ("/Users/victor/work/goworld/src/github.com/cryptominded/invitational/" (22980 54884 0 0) "main.go" "../" "./")
+
+ ("/Users/victor/work/govwizely/zapiness/app/assets/stylesheets/" (22979 25492 0 0) "switchery.css" "subscriptions/" "semantic-extra.css" "react-app.min.css" "public/" "organizations.scss" "onboard.scss" "navigation.scss" "memberships.scss" "logo.scss" "landing.scss" "invitations.scss" "invitation_accept.scss" "input.scss" "guests.scss" "footer.scss" "errata.scss" "endpoints.scss" "docs.scss" "cloudstorage.scss" "application.scss" "alert.scss" "actionable-list-group.scss" ".#application.scss" "../" "./")
+
+ ("/Users/victor/work/govwizely/zapiness/app/views/endpoint_imports/" (22977 22643 0 0) "show.html.erb" "index.html.erb" "_sources.html.erb" "../" "./")
+
+ ("/Users/victor/work/govwizely/zapiness/app/views/endpoints/" (22977 12499 0 0) "show.html.erb" "show/" "search_widget.html.erb" "new.html.erb" "index.html.erb" "edit_docs.html.erb" "edit.html.erb" "_sources.html.erb" "_pagination.html.erb" "_menu.html.erb" "_list.html.erb" "_fields.html.erb" "_empty.html.erb" "_changelog.html.erb" "../" "./")
+
+ ("/Users/victor/work/govwizely/zapiness/config/locales/" (22976 32527 0 0) "en.yml" "dry.en.yml" "devise.en.yml" "../" "./")
+
+ ("/Users/victor/work/govwizely/zapiness/app/services/" (22975 52542 0 0) "transformation_erratum_create_service.rb" "tier_update_service.rb" "tier_create_service.rb" "subscriptions/" "source_transform_service.rb" "source_mapping_service.rb" "source_import_service.rb" "source_create_service.rb" "query_build_service.rb" "preview_service.rb" "invitation_create_service.rb" "invitation_accept_service.rb" "file_parser_service.rb" "external_accounts/" "external_account_service.rb" "esi_audit_service.rb" "endpoint_service.rb" "endpoint_search_service.rb" "endpoint_mapping_service.rb" "endpoint_import_service.rb" "endpoint_create_service.rb" "elastic_mappings_generating_service.rb" "doc_service.rb" "csv_import_service.rb" "content_type_service.rb" "cache_service.rb" "auth_token_service.rb" "../" "./")
+
+ ("/Users/victor/work/govwizely/zapiness/app/views/layouts/" (22975 27644 0 0) "unauthenticated.html.erb" "mailer.text.erb" "mailer.html.erb" "endpoint.html.erb" "devise.html.erb" "application.html.erb" ".#endpoint.html.erb" "../" "./")
+
+ ("/Users/victor/work/govwizely/zapiness/spec/models/" (22969 1505 0 0) "user_spec.rb" "transformation_spec.rb" "subscription_spec.rb" "source_spec.rb" "source_import_spec.rb" "source_field_spec.rb" "search_spec.rb" "organization_spec.rb" "membership_spec.rb" "linked_account_spec.rb" "invitation_spec.rb" "field_spec.rb" "endpoint_spec.rb" "endpoint_import_spec.rb" "elasticsearch_index_spec.rb" "document_schema_spec.rb" "data_type_spec.rb" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----
