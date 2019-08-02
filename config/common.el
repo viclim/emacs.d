@@ -1,17 +1,7 @@
 (require 'smartparens-config)
-(require 'powerline)
-(require 'moe-theme)
-(moe-dark)
-(powerline-moe-theme)
+
 (smartparens-global-mode)
 (setq multi-term-program "/usr/local/bin/zsh")
-(ido-mode t)
-(flx-ido-mode t)
-(setq ido-use-faces nil)
-(projectile-mode +1)
-(define-key projectile-mode-map (kbd "s-p") 'projectile-command-map)
-(define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
-(setq projectile-indexing-method 'alien)
 
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
@@ -30,11 +20,14 @@
 (setq auto-save-file-name-transforms
       `((".*" ,temporary-file-directory t)))
 
+;; ace-mode - jump to window
 (global-set-key (kbd "M-p") 'ace-window)
 (setq aw-keys '(?a ?s ?d ?f ?g ?h ?j ?k ?l))
 (setq aw-dispatch-always t)
 
+;; ivy-mode - completion frontend
 (ivy-mode 1)
+(setq ivy-display-style 'fancy)
 (setq ivy-use-virtual-buffers t)
 (global-set-key "\C-s" 'swiper)
 (global-set-key (kbd "C-c C-r") 'ivy-resume)
@@ -46,10 +39,15 @@
 (global-set-key (kbd "<f1> l") 'counsel-load-library)
 (global-set-key (kbd "<f2> i") 'counsel-info-lookup-symbol)
 (global-set-key (kbd "<f2> u") 'counsel-unicode-char)
-(global-set-key (kbd "C-c g") 'counsel-git)
-(global-set-key (kbd "C-c j") 'counsel-git-grep)
 (global-set-key (kbd "C-c k") 'counsel-ag)
 (global-set-key (kbd "C-x l") 'counsel-locate)
 (define-key read-expression-map (kbd "C-r") 'counsel-expression-history)
 
-(global-set-key (kbd "M-2") 'er/expand-region)
+;; dumb-jump-mode - method definition finder
+(dumb-jump-mode 1)
+(define-key global-map (kbd "M-.") 'dumb-jump-go)
+
+;; projectile-mode
+(counsel-projectile-mode 1)
+(define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
+(setq projectile-indexing-method 'alien)
