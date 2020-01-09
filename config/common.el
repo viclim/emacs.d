@@ -12,7 +12,7 @@
     "Like \\[dired-jump] (dired-jump) but in other window." t)
 (define-key global-map "\C-x\C-j" 'dired-jump)
 (define-key global-map "\C-x4\C-j" 'dired-jump-other-window)
-(add-hook 'after-init-hook 'global-company-mode)
+;; (add-hook 'after-init-hook 'global-company-mode)
 (add-hook 'after-init-hook #'global-flycheck-mode)
 
 (setq backup-directory-alist
@@ -29,6 +29,7 @@
 (ivy-mode 1)
 (setq ivy-display-style 'fancy)
 (setq ivy-use-virtual-buffers t)
+(setq ivy-height 20)
 (global-set-key "\C-s" 'swiper)
 (global-set-key (kbd "C-c C-r") 'ivy-resume)
 (global-set-key (kbd "<f6>") 'ivy-resume)

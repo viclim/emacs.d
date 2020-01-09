@@ -29,10 +29,11 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(isearch ((t (:foreground "#FFF" :background "#000"))))
  '(swiper-match-face-2 ((t (:foreground "#87ffff" :background "#ff5d17"))))
  '(swiper-background-match-face-2 ((t (:foreground "#6c6c6c" :background "#ffd7af"))))
- '(ivy-minibuffer-match-face-2 ((t (:foreground "#000" :background "#fce94f"))))
- '(ivy-current-match ((t (:foreground "#000000" :background "#ff5d17"))))
+ `(ivy-virtual ((t (:foreground "#afd7ff"))))
+ '(ivy-minibuffer-match-face-2 ((t (:foreground "#000"))))
+ '(ivy-minibuffer-match-face-4 ((t (:foreground "#000"))))
+ '(ivy-current-match ((t (:foreground "#ffff87" :background "#ff5d17"))))
  '(region ((t (:foreground "#000000" :background "#FFF"))))
  )

@@ -1,28 +1,162 @@
-((("Ladder2018Season1" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("Ladder" .
-   [1 0 0 0 0 0])
-  ("model_fn" .
-   [1 0 0 0 0 0 0 0])
-  ("train" .
+((("connect" .
+   [1 0 0 0 0 0 0])
+  ("returnPressed" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("enterEvent" .
+   [0 0 0 0 0 1 0 0 0 0])
+  ("greetings" .
+   [2 0 0 0 0 0 0 0 0])
+  ("clicked" .
+   [1 0 0 0 0 0 0])
+  ("setLayout" .
+   [0 0 0 0 0 0 1 0 0])
+  ("button" .
+   [1 0 0 0 0 1])
+  ("edit" .
+   [4 0 0 0])
+  ("addWidget" .
+   [2 0 0 0 0 0 0 0 0])
+  ("layout" .
+   [3 0 0 0 0 0])
+  ("QVBoxLayout" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("QPushButton" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("QLineEdit" .
+   [0 0 1 0 0 0 0 0 0])
+  ("setWindowTitle" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("setWindowFlag" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("setWhatsThis" .
+   [0 0 0 0 1 0 0 0 0 0 0 0])
+  ("exec_" .
    [1 0 0 0 0])
-  ("loss" .
+  ("app" .
+   [1 0 0])
+  ("form" .
+   [1 0 0 0])
+  ("argv" .
+   [1 0 0 0])
+  ("QApplication" .
+   [0 0 1 0 0 0 0 0 0 0 0 0])
+  ("Form" .
+   [2 0 0 0])
+  ("QDialog" .
+   [0 1 0 0 0 0 0])
+  ("QtWidgets" .
+   [0 0 0 1 0 0 0 0 0])
+  ("PySide2" .
+   [0 0 1 0 0 0 0])
+  ("camelot" .
+   [1 0 0 1 0 0 0])
+  ("Vector" .
+   [1 0 1 1 0 0])
+  ("vector" .
+   [0 1 0 0 0 0])
+  ("ReferenceListProperty" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("NumericProperty" .
+   [0 0 2 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("properties" .
+   [0 0 0 1 0 0 0 0 0 0])
+  ("widget" .
+   [0 1 0 0 0 0])
+  ("uix" .
+   [0 1 0])
+  ("kivy" .
+   [3 0 2 0])
+  ("http" .
+   [1 0 0 0])
+  ("server" .
+   [1 0 0 0 0 0])
+  ("features" .
+   [1 0 0 0 0 0 0 0])
+  ("tf" .
+   [1 0])
+  ("__version__" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("learn" .
+   [1 0 0 0 0])
+  ("model" .
+   [1 0 0 0 0])
+  ("mode" .
    [2 0 0 0])
   ("predictions" .
    [1 0 0 0 0 0 0 0 0 0 0])
-  ("mode" .
+  ("loss" .
    [2 0 0 0])
-  ("model" .
+  ("train" .
    [1 0 0 0 0])
-  ("learn" .
-   [1 0 0 0 0])
-  ("__version__" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("tf" .
-   [1 0])
-  ("features" .
+  ("model_fn" .
    [1 0 0 0 0 0 0 0])
-  ("server" .
+  ("Ladder" .
    [1 0 0 0 0 0])
-  ("http" .
-   [1 0 0 0])))
+  ("Ladder2018Season1" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("clock" .
+   [1 0 0 0 0])
+  ("Clock" .
+   [0 1 1 1 0])
+  ("game" .
+   [3 0 0 0])
+  ("update" .
+   [1 0 0 0 0 0])
+  ("ObjectProperty" .
+   [0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ball" .
+   [14 1 0 0])
+  ("height" .
+   [2 0 0 0 0 0])
+  ("velocity" .
+   [0 0 0 2 2 1 1 0])
+  ("velocity_y" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("width" .
+   [4 0 0 0 0])
+  ("velocity_x" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("center" .
+   [3 0 0 0 0 0])
+  ("rotate" .
+   [1 0 0 0 0 0])
+  ("randint" .
+   [0 0 0 0 0 0 1])
+  ("serve_ball" .
+   [0 0 0 0 0 1 0 0 0 0])
+  ("on_touch_move" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("touch" .
+   [4 0 0 0 0])
+  ("center_y" .
+   [4 0 0 0 0 0 0 0])
+  ("Widget" .
+   [1 0 0 0 0 0])
+  ("collide_point" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("collide_widget" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("speedup" .
+   [1 0 0 0 0 0 0])
+  ("offset" .
+   [2 0 0 0 0 0])
+  ("core" .
+   [1 0 0 0])
+  ("window" .
+   [1 0 0 1 0 0])
+  ("Window" .
+   [1 0 0 0 0 0])
+  ("_keyboard_closed" .
+   [1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("_keyboard" .
+   [1 0 0 0 0 1 0 0 0])
+  ("on_key_down" .
+   [0 0 0 0 1 0 0 0 0 0 0])
+  ("_on_keyboard_down" .
+   [0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("text" .
+   [2 0 0 0])
+  ("keycode" .
+   [2 0 0 0 0 0 0])
+  ("keyboard" .
+   [1 0 0 0 0 0 0 0])))

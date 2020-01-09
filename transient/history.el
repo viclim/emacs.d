@@ -1,2 +1,7 @@
 ((magit-blame
-  ("-w")))
+  ("-w"))
+ (magit-log
+  (("--" "./")))
+ (magit-pull nil)
+ (magit-revert
+  ("--edit")))

@@ -26,7 +26,7 @@
 (load "ruby.el")
 (load "javascript.el")
 (load "go.el")
-(load "python.el")
+(load "py.el")
 (load "rust.el")
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -40,10 +40,21 @@
  '(org-journal-enable-encryption t)
  '(package-selected-packages
    (quote
-    (rainbow-mode dumb-jump protobuf-mode cargo racer hledger-mode powerline docker-compose-mode org-journal flycheck-rust rust-mode slim-mode lua-mode indium prettier-js format-sql company-go go-mode vue-mode flycheck-flow flow-minor-mode folding js2-mode seeing-is-believing expand-region rjsx-mode go-autocomplete company-anaconda anaconda-mode typescript-mode dockerfile-mode yaml-mode web-mode virtualenv smartparens scss-mode rubocop rspec-mode python-mode python projectile-rails popup moe-theme markdown-mode magit json-mode haml-mode go-errcheck github-browse-file exec-path-from-shell enh-ruby-mode emmet-mode csv-mode counsel-projectile alchemist ag ace-window)))
+    (company-lsp lsp-ui lsp-mode elm-mode jedi kivy-mode pylint python-black ledger-mode rainbow-mode dumb-jump protobuf-mode cargo racer hledger-mode powerline docker-compose-mode org-journal flycheck-rust rust-mode slim-mode lua-mode indium prettier-js format-sql company-go go-mode flycheck-flow flow-minor-mode folding js2-mode seeing-is-believing expand-region rjsx-mode go-autocomplete company-anaconda anaconda-mode typescript-mode dockerfile-mode yaml-mode web-mode virtualenv smartparens scss-mode rubocop rspec-mode python projectile-rails popup moe-theme markdown-mode magit json-mode haml-mode go-errcheck github-browse-file exec-path-from-shell enh-ruby-mode emmet-mode csv-mode counsel-projectile alchemist ag ace-window)))
  '(projectile-globally-ignored-directories
    (quote
     (".idea" ".eunit" ".git" ".hg" ".fslckout" ".bzr" "_darcs" ".tox" ".svn" ".stack-work" "node_modules")))
  '(require-final-newline t)
- '(safe-local-variable-values (quote ((whitespace-line-column . 80))))
-)
+ '(safe-local-variable-values (quote ((whitespace-line-column . 80)))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(ivy-current-match ((t (:foreground "#ffff87" :background "#ff5d17"))))
+ '(ivy-minibuffer-match-face-2 ((t (:foreground "#000"))))
+ '(ivy-minibuffer-match-face-4 ((t (:foreground "#000"))))
+ '(ivy-virtual ((t (:foreground "#afd7ff"))))
+ '(region ((t (:foreground "#000000" :background "#FFF"))))
+ '(swiper-background-match-face-2 ((t (:foreground "#6c6c6c" :background "#ffd7af"))))
+ '(swiper-match-face-2 ((t (:foreground "#87ffff" :background "#ff5d17")))))

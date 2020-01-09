@@ -1,4 +1,4 @@
 (with-eval-after-load 'rust-mode
   (add-hook 'flycheck-mode-hook #'flycheck-rust-setup)
-  '(rust-format-on-save t)
+  '(rust-enable-format-on-save t)
 )

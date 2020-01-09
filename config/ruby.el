@@ -16,5 +16,5 @@
                ))
   (add-hook hook (lambda ()
                    (flycheck-mode)
-                   (rspec-mode)
+                   (lsp-ui-mode)
                    )))
