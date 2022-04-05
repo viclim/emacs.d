@@ -1,12 +1,21 @@
 (require 'package)
 (add-to-list 'package-archives
 	     '("melpa" . "https://melpa.org/packages/") t)
-(require 'diminish)
+
+;; (use-package benchmark-init
+;;   :ensure t
+;;   :config
+;;   ;; To disable collection of benchmark data after init is done.
+;;   (add-hook 'after-init-hook 'benchmark-init/deactivate))
+
+(use-package diminish
+  :ensure t)
 
 (use-package emacs
   :init
   (electric-pair-mode +1)
   (global-display-line-numbers-mode +1)
+  (setq-default indent-tabs-mode nil)
   :custom
   (make-backup-files nil)
   (default-frame-alist '((menu-bar-lines 0))))
@@ -25,7 +34,14 @@
   :config
   (show-paren-mode +1))
 
-(use-package dired-x)
+(use-package dired-x
+  :defer t)
+
+(use-package dumb-jump
+  :defer t
+  :ensure t
+  :config
+  (add-hook 'xref-backend-functions #' dumb-jump-xref-activate))
 
 (use-package exec-path-from-shell
   :ensure t
@@ -34,8 +50,8 @@
 
 (use-package moe-theme
   :ensure t
-  :config
-  (moe-dark))
+  :hook
+  (after-init . moe-dark))
 
 (use-package ace-window
   :ensure t
@@ -43,20 +59,31 @@
   (setq aw-keys '(?a ?s ?d ?f ?g ?h ?j ?k ?l))
   :bind (("M-p" . ace-window)))
 
+(use-package elixir-mode
+  :defer t
+  :ensure t)
+
+(use-package ivy
+  :defer t
+  :ensure t)
+
 (use-package projectile
   :diminish projectile-mode
   :ensure t
-  :init (projectile-mode +1)
+  :init
+  (setq projectile-completion-system 'ivy)
+  (projectile-mode +1)
   :bind (:map projectile-mode-map
 	     ("C-c p" . projectile-command-map)))
 
 (use-package selectrum
+  :defer t
   :ensure t
-  :init (selectrum-mode +1))
+  :config (selectrum-mode +1))
 
 (use-package ctrlf
   :ensure t
-  :init (ctrlf-mode +1))
+  :config (ctrlf-mode +1))
 
 (use-package consult
   :ensure t
@@ -116,6 +143,11 @@
   ;; (setq consult-preview-key (list (kbd "<S-down>") (kbd "<S-up>")))
   ;; For some commands and buffer sources it is useful to configure the
   ;; :preview-key on a per-command basis using the `consult-customize' macro.
+  (setq consult-project-root-function
+	(lambda ()
+	  (when-let (project (project-current))
+	    (car (project-roots project)))))
+
   (consult-customize
    consult-theme
    :preview-key '(:debounce 0.2 any)
@@ -126,6 +158,7 @@
   )
 
 (use-package company
+  :defer t
   :diminish company-mode
   :ensure t)
 
@@ -135,7 +168,9 @@
 
 (use-package flycheck
   :diminish flycheck-mode
-  :ensure t)
+  :ensure t
+  :hook ((go-mode ruby-mode) . flycheck-mode)
+  )
 
 (use-package go-mode
   :ensure t
@@ -147,6 +182,20 @@
 	 (go-mode . lsp-go-install-save-hooks)
 	 (go-mode . yas-minor-mode)))
 
+(use-package js2-mode
+  :ensure t
+  :mode "\\.js\\'")
+
+(use-package json-mode
+  :ensure t
+  :mode "\\.json\\'"
+	:config
+	(setq js-indent-level 2))
+
+(use-package ledger-mode
+  :defer t
+  :ensure t)
+
 (use-package lsp-mode
   :ensure t
   :commands lsp
@@ -154,39 +203,73 @@
   (setq lsp-auto-guess-root t))
 
 (use-package lsp-ui
+  :defer t
   :ensure t
   :config
   (setq lsp-ui-sidelinw-show-hover t))
+
+(use-package magit
+  :defer t
+  :ensure t)
 
 (use-package marginalia
   :ensure t
   :init
   (marginalia-mode))
 
+(use-package meson-mode
+  :defer t
+  :ensure t)
+
 (use-package powerline
   :ensure t
-  :init (powerline-default-theme))
+  :hook (after-init . powerline-default-theme))
+
+(use-package ruby-mode
+  :defer t
+  :config
+  (setq ruby-insert-encoding-magic-comment nil))
+
+(use-package slim-mode
+  :defer t
+  :ensure t)
 
 (use-package ruby-electric
   :ensure t
   :hook (ruby-mode . ruby-electric-mode))
 
+(use-package svelte-mode
+  :ensure t
+  :mode "\\.svelte\\'")
+
 (use-package tree-sitter
   :diminish tree-sitter-mode
   :ensure t
-  :init
+  :config
   (global-tree-sitter-mode +1)
   :hook
   (tree-sitter-after-on . tree-sitter-hl-mode))
 
 (use-package tree-sitter-langs
+  :defer t
   :ensure t)
 
 (use-package vertico
   :ensure t
   :init (vertico-mode))
 
+(use-package web-mode
+  :defer t
+  :ensure t
+  :config
+  (setq web-mode-markup-indent-offset 2))
+
+(use-package yaml-mode
+  :ensure t
+  :mode "\\.yaml\\'" "\\.yml\\'")
+
 (use-package yasnippet
+  :defer t
   :diminish yas-minor-mode
   :ensure t)
 
@@ -195,8 +278,14 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(css-indent-offset 2)
+ '(custom-safe-themes
+   '("fee7287586b17efbfda432f05539b58e86e059e78006ce9237b8732fde991b4c" "88deeaaab5a631834e6f83e8359b571cfcbf5a18b04990288c8569cc16ee0798" "37768a79b479684b0756dec7c0fc7652082910c37d8863c35b702db3f16000f8" default))
+ '(electric-pair-mode t)
+ '(js-indent-level 2)
  '(package-selected-packages
-   '(ruby-electric exec-path-from-shell consult-flycheck diminish company-box go-mode ctrlf selectrum use-package moe-theme)))
+   '(solarized-theme zenburn-theme ledger-mode svelte-mode web-mode json-mode magit meson-mode dumb-jump yaml-mode slim-mode ruby-electric exec-path-from-shell consult-flycheck diminish company-box go-mode ctrlf selectrum use-package moe-theme))
+ '(sgml-basic-offset 2))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
