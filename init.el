@@ -2,11 +2,11 @@
 (add-to-list 'package-archives
 	     '("melpa" . "https://melpa.org/packages/") t)
 
-;; (use-package benchmark-init
-;;   :ensure t
-;;   :config
-;;   ;; To disable collection of benchmark data after init is done.
-;;   (add-hook 'after-init-hook 'benchmark-init/deactivate))
+(use-package benchmark-init
+  :ensure t
+  :config
+  ;; To disable collection of benchmark data after init is done.
+  (add-hook 'after-init-hook 'benchmark-init/deactivate))
 
 (use-package diminish
   :ensure t)
@@ -34,11 +34,9 @@
   :config
   (show-paren-mode +1))
 
-(use-package dired-x
-  :defer t)
+(use-package dired-x)
 
 (use-package dumb-jump
-  :defer t
   :ensure t
   :config
   (add-hook 'xref-backend-functions #' dumb-jump-xref-activate))
@@ -58,6 +56,10 @@
   :config
   (setq aw-keys '(?a ?s ?d ?f ?g ?h ?j ?k ?l))
   :bind (("M-p" . ace-window)))
+
+(use-package dockerfile-mode
+  :defer t
+  :ensure t)
 
 (use-package elixir-mode
   :defer t
@@ -172,6 +174,15 @@
   :hook ((go-mode ruby-mode) . flycheck-mode)
   )
 
+(use-package cc-mode
+  :config
+  (defun lsp-cc-install-save-hooks ()
+    (add-hook 'before-save-hook #'lsp-format-buffer t t))
+  :hook ((c++-mode . flycheck-mode)
+         (c++-mode . lsp-deferred)
+	 (c++-mode . lsp-cc-install-save-hooks)
+	 (c++-mode . yas-minor-mode)))
+
 (use-package go-mode
   :ensure t
   :config
@@ -284,7 +295,7 @@
  '(electric-pair-mode t)
  '(js-indent-level 2)
  '(package-selected-packages
-   '(solarized-theme zenburn-theme ledger-mode svelte-mode web-mode json-mode magit meson-mode dumb-jump yaml-mode slim-mode ruby-electric exec-path-from-shell consult-flycheck diminish company-box go-mode ctrlf selectrum use-package moe-theme))
+   '(dockerfile-mode solarized-theme zenburn-theme ledger-mode svelte-mode web-mode json-mode magit meson-mode dumb-jump yaml-mode slim-mode ruby-electric exec-path-from-shell consult-flycheck diminish company-box go-mode ctrlf selectrum use-package moe-theme))
  '(sgml-basic-offset 2))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
