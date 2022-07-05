@@ -61,6 +61,10 @@
   :defer t
   :ensure t)
 
+(use-package jenkinsfile-mode
+  :defer t
+  :ensure t)
+
 (use-package elixir-mode
   :defer t
   :ensure t)
@@ -295,7 +299,7 @@
  '(electric-pair-mode t)
  '(js-indent-level 2)
  '(package-selected-packages
-   '(dockerfile-mode solarized-theme zenburn-theme ledger-mode svelte-mode web-mode json-mode magit meson-mode dumb-jump yaml-mode slim-mode ruby-electric exec-path-from-shell consult-flycheck diminish company-box go-mode ctrlf selectrum use-package moe-theme))
+   '(string-inflection dockerfile-mode solarized-theme zenburn-theme ledger-mode svelte-mode web-mode json-mode magit meson-mode dumb-jump yaml-mode slim-mode ruby-electric exec-path-from-shell consult-flycheck diminish company-box go-mode ctrlf selectrum use-package moe-theme))
  '(sgml-basic-offset 2))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
