@@ -87,6 +87,13 @@
   :ensure t
   :config (selectrum-mode +1))
 
+(use-package smartparens
+  :defer t
+  :diminish smartparens-mode
+  :ensure t
+  :init
+  (require 'smartparens-config))
+
 (use-package ctrlf
   :ensure t
   :config (ctrlf-mode +1))
@@ -243,15 +250,13 @@
 (use-package ruby-mode
   :defer t
   :config
-  (setq ruby-insert-encoding-magic-comment nil))
+  (setq ruby-insert-encoding-magic-comment nil)
+  :hook
+  (ruby-mode . smartparens-mode))
 
 (use-package slim-mode
   :defer t
   :ensure t)
-
-(use-package ruby-electric
-  :ensure t
-  :hook (ruby-mode . ruby-electric-mode))
 
 (use-package svelte-mode
   :ensure t
@@ -296,10 +301,9 @@
  '(css-indent-offset 2)
  '(custom-safe-themes
    '("fee7287586b17efbfda432f05539b58e86e059e78006ce9237b8732fde991b4c" "88deeaaab5a631834e6f83e8359b571cfcbf5a18b04990288c8569cc16ee0798" "37768a79b479684b0756dec7c0fc7652082910c37d8863c35b702db3f16000f8" default))
- '(electric-pair-mode t)
  '(js-indent-level 2)
  '(package-selected-packages
-   '(string-inflection dockerfile-mode solarized-theme zenburn-theme ledger-mode svelte-mode web-mode json-mode magit meson-mode dumb-jump yaml-mode slim-mode ruby-electric exec-path-from-shell consult-flycheck diminish company-box go-mode ctrlf selectrum use-package moe-theme))
+   '(string-inflection exec-path-from-shell consult-flycheck diminish))
  '(sgml-basic-offset 2))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
